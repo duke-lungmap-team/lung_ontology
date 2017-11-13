@@ -27,26 +27,60 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#PRO_Hierarchy"/>
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#source"/>
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_synonym"/>
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lungmap_preferred_label"/>
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#definition"/>
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#term_editor"/>
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#IAO_0000116"/>
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#IAO_0000115"/>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Cytoscape_view_in_PRO -->
+
     <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Cytoscape_view_in_PRO"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#IAO_0000115 -->
 
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#IAO_0000115"/>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#IAO_0000116"/>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#PRO_Hierarchy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#PRO_Hierarchy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#definition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_synonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_synonym"/>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lungmap_preferred_label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lungmap_preferred_label"/>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#source -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#source"/>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#term_editor -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#term_editor"/>
     
 
 
@@ -67,11 +101,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#connected_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#connected_to"/>
+    
+
+
     <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#derived_from -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#derived_from">
-        <IAO_0000116>This is a very general relation. More specific relations are preferred when applicable, such as &#39;directly develops from&#39;.</IAO_0000116>
         <IAO_0000115>a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity</IAO_0000115>
+        <IAO_0000116>This is a very general relation. More specific relations are preferred when applicable, such as &apos;directly develops from&apos;.</IAO_0000116>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#derives_into"/>
     </owl:ObjectProperty>
     
@@ -80,8 +120,31 @@
     <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#derives_into -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#derives_into">
+        <IAO_0000116>This is a very general relation. More specific relations are preferred when applicable, such as &apos;directly develops into&apos;. To avoid making statements about a future that may not come to pass, it is often better to use the backward-looking &apos;derives from&apos; rather than the forward-looking &apos;derives into&apos;.</IAO_0000116>
         <IAO_0000115>a relation between two distinct material entities, the old entity and the new entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity</IAO_0000115>
-        <IAO_0000116>This is a very general relation. More specific relations are preferred when applicable, such as &#39;directly develops into&#39;. To avoid making statements about a future that may not come to pass, it is often better to use the backward-looking &#39;derives from&#39; rather than the forward-looking &#39;derives into&#39;.</IAO_0000116>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#distally_connected_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#distally_connected_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#connected_to"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#proximally_connected_to"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#during_which_exists -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#during_which_exists"/>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#exists_at -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#exists_at">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#during_which_exists"/>
     </owl:ObjectProperty>
     
 
@@ -95,12 +158,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part_not -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part_not"/>
+    
+
+
     <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_participant -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_participant">
-        <IAO_0000115>a relation between a process and a continuant, in which the continuant is somehow involved in the process</IAO_0000115>
-        <IAO_0000116>Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time.</IAO_0000116>
         <source>http://www.obofoundry.org/ro/#OBO_REL:has_participant</source>
+        <IAO_0000116>Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time.</IAO_0000116>
+        <IAO_0000115>a relation between a process and a continuant, in which the continuant is somehow involved in the process</IAO_0000115>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#participates_in"/>
     </owl:ObjectProperty>
     
@@ -146,14 +215,14 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#located_in">
         <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <source>http://www.obofoundry.org/ro/#OBO_REL:located_in</source>
+        <IAO_0000115>a relation between two independent continuants, the target and the location, in which the target is entirely within the location</IAO_0000115>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/RO_0001901</rdfs:isDefinedBy>
         <IAO_0000116>Location as a relation between instances: The primitive instance-level relation c located_in r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is part_of the spatial region occupied by c1.    Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus
 
 
 
 Most location relations will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</IAO_0000116>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/RO_0001901</rdfs:isDefinedBy>
-        <IAO_0000115>a relation between two independent continuants, the target and the location, in which the target is entirely within the location</IAO_0000115>
-        <source>http://www.obofoundry.org/ro/#OBO_REL:located_in</source>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#location_of"/>
     </owl:ObjectProperty>
     
@@ -171,12 +240,12 @@ Most location relations will only hold at certain times, but this is difficult t
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of">
         <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:seeAlso>http://www.obofoundry.org/ro/#OBO_REL:part_of</rdfs:seeAlso>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/RO_0001901</rdfs:isDefinedBy>
         <rdfs:comment>IAO_0000116  
 Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)
 
-A continuant cannot be part of an occurrent: use &#39;participates in&#39;. An occurrent cannot be part of a continuant: use &#39;has participant&#39;. A material entity cannot be part of an immaterial entity: use &#39;has location&#39;. A specifically dependent continuant cannot be part of an independent continuant: use &#39;inheres in&#39;. An independent continuant cannot be part of a specifically dependent continuant: use &#39;bearer of&#39;.</rdfs:comment>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/RO_0001901</rdfs:isDefinedBy>
-        <rdfs:seeAlso>http://www.obofoundry.org/ro/#OBO_REL:part_of</rdfs:seeAlso>
+A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An occurrent cannot be part of a continuant: use &apos;has participant&apos;. A material entity cannot be part of an immaterial entity: use &apos;has location&apos;. A specifically dependent continuant cannot be part of an independent continuant: use &apos;inheres in&apos;. An independent continuant cannot be part of a specifically dependent continuant: use &apos;bearer of&apos;.</rdfs:comment>
     </owl:ObjectProperty>
     
 
@@ -185,6 +254,14 @@ A continuant cannot be part of an occurrent: use &#39;participates in&#39;. An o
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#participates_in">
         <IAO_0000115>a relation between a continuant and a process, in which the continuant is somehow involved in the process</IAO_0000115>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#proximally_connected_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#proximally_connected_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#connected_to"/>
     </owl:ObjectProperty>
     
 
@@ -205,13 +282,13 @@ A continuant cannot be part of an occurrent: use &#39;participates in&#39;. An o
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#ATP-binding_cassette_sub-family_A_member_3">
         <rdfs:label>ATP-binding_cassette_sub-family_A_member_3</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <has_synonym>Abca3</has_synonym>
-        <has_synonym>ABC-C</has_synonym>
-        <has_synonym>ABCA3</has_synonym>
-        <has_synonym>ABCC</has_synonym>
-        <has_synonym>1810036E22Rik</has_synonym>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000003541</rdfs:isDefinedBy>
         <has_synonym>Abc3</has_synonym>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000003541</rdfs:isDefinedBy>
+        <has_synonym>1810036E22Rik</has_synonym>
+        <has_synonym>ABCC</has_synonym>
+        <has_synonym>ABCA3</has_synonym>
+        <has_synonym>ABC-C</has_synonym>
+        <has_synonym>Abca3</has_synonym>
     </owl:Class>
     
 
@@ -221,17 +298,17 @@ A continuant cannot be part of an occurrent: use &#39;participates in&#39;. An o
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#CALCA">
         <rdfs:label>calcitonin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <has_synonym>Ctn</has_synonym>
-        <has_synonym>CGRP1</has_synonym>
-        <has_synonym>Ct</has_synonym>
-        <has_synonym>CGRP-1</has_synonym>
-        <has_synonym>CALCA</has_synonym>
-        <has_synonym>Calc</has_synonym>
+        <has_synonym>Cgrp</has_synonym>
+        <has_synonym>CA</has_synonym>
+        <has_synonym>Calc1</has_synonym>
         <rdfs:isDefinedBy>
 http://purl.obolibrary.org/obo/PR_000027223</rdfs:isDefinedBy>
-        <has_synonym>Calc1</has_synonym>
-        <has_synonym>CA</has_synonym>
-        <has_synonym>Cgrp</has_synonym>
+        <has_synonym>Calc</has_synonym>
+        <has_synonym>CALCA</has_synonym>
+        <has_synonym>CGRP-1</has_synonym>
+        <has_synonym>Ct</has_synonym>
+        <has_synonym>CGRP1</has_synonym>
+        <has_synonym>Ctn</has_synonym>
     </owl:Class>
     
 
@@ -241,11 +318,11 @@ http://purl.obolibrary.org/obo/PR_000027223</rdfs:isDefinedBy>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#CD34">
         <rdfs:label>CD34</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000001003</rdfs:isDefinedBy>
+        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/pro/visual/cytoscape/pro/PR%3AQ64314</Cytoscape_view_in_PRO>
+        <has_synonym>CD34 antigen</has_synonym>
         <has_synonym>hematopoietic progenitor cell antigen CD34</has_synonym>
         <has_synonym>AU040960</has_synonym>
-        <has_synonym>CD34 antigen</has_synonym>
-        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/pro/visual/cytoscape/pro/PR%3AQ64314</Cytoscape_view_in_PRO>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000001003</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -264,9 +341,9 @@ http://purl.obolibrary.org/obo/PR_000027223</rdfs:isDefinedBy>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#DAPI">
         <rdfs:label>DAPI</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Chemical"/>
-        <rdfs:seeAlso>https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:51231</rdfs:seeAlso>
-        <has_synonym>2-(4-(aminoiminomethyl)phenyl)-1H-indole-6-carboximidamide, 4&#39;,6-diamidino-2-phenylindole, 4&#39;,6-diamidinophenyl-indole</has_synonym>
         <rdfs:isDefinedBy>CHEBI:51231</rdfs:isDefinedBy>
+        <has_synonym>2-(4-(aminoiminomethyl)phenyl)-1H-indole-6-carboximidamide, 4&apos;,6-diamidino-2-phenylindole, 4&apos;,6-diamidinophenyl-indole</has_synonym>
+        <rdfs:seeAlso>https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:51231</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -275,9 +352,44 @@ http://purl.obolibrary.org/obo/PR_000027223</rdfs:isDefinedBy>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Embryonic_day_16.5">
         <rdfs:label>Embryonic day 16.5</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#embryo_age"/>
-        <term_editor>Person: Chris Stoeckert, Jie Zheng</term_editor>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#mouse_embryo_age"/>
         <definition>16.5 days after fertilization</definition>
+        <term_editor>Person: Chris Stoeckert, Jie Zheng</term_editor>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Embryonic_day_17.5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Embryonic_day_17.5">
+        <rdfs:label>Embryonic day 17.5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#mouse_embryo_age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Embryonic_day_18.5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Embryonic_day_18.5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#mouse_embryo_age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Embryonic_day_19.5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Embryonic_day_19.5">
+        <rdfs:label>Embryonic day 19.5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#mouse_embryo_age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Information_content_entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Information_content_entity">
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/IAO_0000030</rdfs:isDefinedBy>
+        <definition>Definition: A generically dependent continuant that is about some thing</definition>
     </owl:Class>
     
 
@@ -287,10 +399,334 @@ http://purl.obolibrary.org/obo/PR_000027223</rdfs:isDefinedBy>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Kultschitzky_cell_of_bronchiole">
         <rdfs:label>Kultschitzky_cell_of_bronchiole</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lung_neuroendocrine_cell"/>
-        <lungmap_preferred_label>Kultschitzky cell of bronchiole</lungmap_preferred_label>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/CL_0002066</rdfs:isDefinedBy>
-        <rdfs:comment>not present in LungMap need to be added</rdfs:comment>
         <owl:versionInfo>Definition CL: A neuroendocrine cell found in the epithelium of the lungs and respiratory tract. This cell type is rounded or elliptical in shape, situated mainly in the basal part of the epithelium; regulates bronchial secretion, smooth muscle contraction, lobular growth, ciliary activity and chemoreception. Cell has an electron-lucent cytoplasm, contains numerous dense-cored vesicles with a clear halo between the core and the limiting membrane. [database_cross_reference: GOC:tfm][database_cross_reference: ISBN:0517223651][database_cross_reference: ISBN:0412046911]</owl:versionInfo>
+        <rdfs:comment>not present in LungMap need to be added</rdfs:comment>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/CL_0002066</rdfs:isDefinedBy>
+        <lungmap_preferred_label>Kultschitzky cell of bronchiole</lungmap_preferred_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P01 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P01">
+        <rdfs:label>P01</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P02 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P02">
+        <rdfs:label>P02</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P03 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P03">
+        <rdfs:label>P03</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P04 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P04">
+        <rdfs:label>P04</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P05 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P05">
+        <rdfs:label>P05</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P06 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P06">
+        <rdfs:label>P06</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P07 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P07">
+        <rdfs:label>P07</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P08 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P08">
+        <rdfs:label>P08</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P09 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P09">
+        <rdfs:label>P09</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P10 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P10">
+        <rdfs:label>P10</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P11">
+        <rdfs:label>P11</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P12 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P12">
+        <rdfs:label>P12</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P13 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P13">
+        <rdfs:label>P13</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P14 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P14">
+        <rdfs:label>P14</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P15 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P15">
+        <rdfs:label>P15</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P17 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P17">
+        <rdfs:label>P17</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P18 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P18">
+        <rdfs:label>P18</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P19 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P19">
+        <rdfs:label>P19</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P20 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P20">
+        <rdfs:label>P20</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P21 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P21">
+        <rdfs:label>P21</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P22 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P22">
+        <rdfs:label>P22</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P23 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P23">
+        <rdfs:label>P23</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P24 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P24">
+        <rdfs:label>P24</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P25 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P25">
+        <rdfs:label>P25</rdfs:label>
+        <rdfs:label></rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P26 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P26">
+        <rdfs:label>P26</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P27 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P27">
+        <rdfs:label>P27</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P28 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P28">
+        <rdfs:label>P28</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P29 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P29">
+        <rdfs:label>P29</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P30 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P30">
+        <rdfs:label>P30</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P31 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P31">
+        <rdfs:label>P31</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P32">
+        <rdfs:label>P32</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P33 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P33">
+        <rdfs:label>P33</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P34 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P34">
+        <rdfs:label>P34</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P35 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P35">
+        <rdfs:label>P35</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P36 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#P36">
+        <rdfs:label>P36</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#PO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#PO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day"/>
     </owl:Class>
     
 
@@ -363,12 +799,12 @@ for now we are going to have ponly mouse proteins but in the future we will have
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Vimentin">
         <rdfs:label>Vimentin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000017298</Cytoscape_view_in_PRO>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000017298</rdfs:isDefinedBy>
+        <has_synonym>VIM</has_synonym>
+        <PRO_Hierarchy>http://pir.georgetown.edu/cgi-bin/pro/browser_pro?ids=PR:000017298</PRO_Hierarchy>
         <definition>&quot;A protein that is a translation product of the human VIM gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
 comment: Category=gene.</definition>
-        <PRO_Hierarchy>http://pir.georgetown.edu/cgi-bin/pro/browser_pro?ids=PR:000017298</PRO_Hierarchy>
-        <has_synonym>VIM</has_synonym>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000017298</rdfs:isDefinedBy>
-        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000017298</Cytoscape_view_in_PRO>
     </owl:Class>
     
 
@@ -392,11 +828,11 @@ comment: Category=gene.</definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#acinar_tubule_epithelium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <definition>Definition  in Lung Ontology:	A cuboidal epithelial cell that lines the branching acinar tubules of the peripheral fetal lung. These tubules are formed during the pseudoglandular stage of lung development (E12.5 - E16.5). They are called &quot;acinar tubules&quot;, since they will become the mature pulmonary acinus (alveolar duct and alveoli) in the adult lung.</definition>
-        <definition>proposed definition AMM: An epithelial cell of the lung acinus. </definition>
-        <rdfs:isDefinedBy>LMMA0000000052</rdfs:isDefinedBy>
-        <rdfs:comment>no present in CL  need to be added</rdfs:comment>
         <lungmap_preferred_label>acinar epithelial cell</lungmap_preferred_label>
+        <rdfs:comment>no present in CL  need to be added</rdfs:comment>
+        <rdfs:isDefinedBy>LMMA0000000052</rdfs:isDefinedBy>
+        <definition>proposed definition AMM: An epithelial cell of the lung acinus. </definition>
+        <definition>Definition  in Lung Ontology:	A cuboidal epithelial cell that lines the branching acinar tubules of the peripheral fetal lung. These tubules are formed during the pseudoglandular stage of lung development (E12.5 - E16.5). They are called &quot;acinar tubules&quot;, since they will become the mature pulmonary acinus (alveolar duct and alveoli) in the adult lung.</definition>
     </owl:Class>
     
 
@@ -406,8 +842,8 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#acinar_tubule">
         <rdfs:label>acinar_tubule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#complex_anatomical_structure"/>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000001</rdfs:isDefinedBy>
         <lungmap_preferred_label>acinar tubule</lungmap_preferred_label>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000001</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -417,8 +853,14 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#acinar_tubule_epithelium">
         <rdfs:label>acinar_tubule_epithelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lung_epithelium"/>
-        <lungmap_preferred_label>acinar tubule epithelium</lungmap_preferred_label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#acinar_tubule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:isDefinedBy>LungMap ID:  LMMA0000000053</rdfs:isDefinedBy>
+        <lungmap_preferred_label>acinar tubule epithelium</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -435,20 +877,14 @@ comment: Category=gene.</definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#distal_acinar_tubule_epithelium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#participates_in"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cellular_proliferation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>No present in CL need to be added</rdfs:comment>
+        <rdfs:comment>AMM: something is wrong in the lungmap hierarchy  since the pneumocyte type I and type II and proliferative epithelial cell are both listed as children of distal acinar cell and proximal acinar cell. That is inconsistent </rdfs:comment>
         <lungmap_preferred_label>acinar tubule proliferative epithelial cell</lungmap_preferred_label>
         <rdfs:isDefinedBy>LungMAP ID: LMMA0000000599</rdfs:isDefinedBy>
-        <rdfs:comment>AMM: something is wrong in the lungmap hierarchy  since the pneumocyte type I and type II and proliferative epithelial cell are both listed as children of distal acinar cell and proximal acinar cell. That is inconsistent </rdfs:comment>
+        <rdfs:comment>No present in CL need to be added</rdfs:comment>
     </owl:Class>
     
 
@@ -458,10 +894,20 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#advanced_glycosylation_end_product-specific_receptor">
         <rdfs:label>advanced_glycosylation_end_product-specific_receptor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <has_synonym>RAGE</has_synonym>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000003828</rdfs:isDefinedBy>
-        <has_synonym>AGER</has_synonym>
         <has_synonym>Receptor for advanced glycosylation end products</has_synonym>
+        <has_synonym>AGER</has_synonym>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000003828</rdfs:isDefinedBy>
+        <has_synonym>RAGE</has_synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#measurament_datum"/>
+        <definition>Definition: An age measurement datum that is the result of the measurement of the age of an organism since fertilization, the process of the union of gametes of opposite sexes during the process of sexual reproduction to form a zygote.</definition>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/OBI_0001168</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -471,19 +917,19 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#alpha-actin-2">
         <rdfs:label>alpha-actin-2</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <has_synonym>alpha-smooth muscle actin</has_synonym>
-        <has_synonym>actin, aortic smooth muscle</has_synonym>
-        <has_synonym>aorta</has_synonym>
-        <has_synonym>ACTA2</has_synonym>
-        <has_synonym>a-SMA</has_synonym>
-        <has_synonym>alpha 2</has_synonym>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_P62737</rdfs:isDefinedBy>
-        <has_synonym>α Smooth muscle, actin</has_synonym>
-        <has_synonym>actin</has_synonym>
-        <has_synonym>α-Smooth Muscle Actin</has_synonym>
+        <has_synonym>mActa2</has_synonym>
         <rdfs:comment>http://www.uniprot.org/uniprot/P62737</rdfs:comment>
         <has_synonym>smooth muscle</has_synonym>
-        <has_synonym>mActa2</has_synonym>
+        <has_synonym>α-Smooth Muscle Actin</has_synonym>
+        <has_synonym>actin</has_synonym>
+        <has_synonym>α Smooth muscle, actin</has_synonym>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_P62737</rdfs:isDefinedBy>
+        <has_synonym>alpha 2</has_synonym>
+        <has_synonym>ACTA2</has_synonym>
+        <has_synonym>a-SMA</has_synonym>
+        <has_synonym>aorta</has_synonym>
+        <has_synonym>actin, aortic smooth muscle</has_synonym>
+        <has_synonym>alpha-smooth muscle actin</has_synonym>
     </owl:Class>
     
 
@@ -494,35 +940,57 @@ comment: Category=gene.</definition>
     
 
 
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#anatomical_structure_development -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#anatomical_structure_development">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#process"/>
+        <definition>Definition GO: The biological process whose specific outcome is the progression of an anatomical structure from an initial condition to its mature state. This process begins with the formation of the structure and ends with the mature structure, whatever form that may be including its natural destruction. An anatomical structure is any biological entity that occupies space and is distinguished from its surroundings. Anatomical structures can be macroscopic such as a carpel, or microscopic such as an acrosome.</definition>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/GO_0048856</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#arl13b -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#arl13b">
         <rdfs:label>ADP-ribosylation factor-like protein 13B</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <has_synonym>Arl2l1</has_synonym>
-        <has_synonym>hnn</has_synonym>
-        <has_synonym>ADP-ribosylation factor-like protein 2-like 1</has_synonym>
-        <has_synonym>ARL13B</has_synonym>
-        <has_synonym>C530009C10Rik</has_synonym>
-        <has_synonym>A930014M17Rik</has_synonym>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_Q640N2</rdfs:isDefinedBy>
+        <has_synonym>Arl13B</has_synonym>
         <has_synonym>A530097K21Rik</has_synonym>
         <has_synonym>ARL2-like protein 1</has_synonym>
-        <has_synonym>Arl13B</has_synonym>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_Q640N2</rdfs:isDefinedBy>
+        <has_synonym>A930014M17Rik</has_synonym>
+        <has_synonym>C530009C10Rik</has_synonym>
+        <has_synonym>ARL13B</has_synonym>
+        <has_synonym>ADP-ribosylation factor-like protein 2-like 1</has_synonym>
+        <has_synonym>Arl2l1</has_synonym>
+        <has_synonym>hnn</has_synonym>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#arterial_smooth_muscle -->
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#arterial_blood_vessel -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#arterial_smooth_muscle">
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#arterial_blood_vessel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#blood_vessel"/>
+        <definition>UBERON Definition: A blood vessel that is part of the arterial system. Includes artery, arteriole and aorta. only in MA - supertype of artery, arteriole, aorta.</definition>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0003509</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#arterial_smooth_muscle_tissue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#arterial_smooth_muscle_tissue">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#tissue"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchial_arteriole"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#artery"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <definition>UBERON Definition: A portion of smooth muscle tissue that is part of an artery [Automatically generated definition]. [database_cross_reference: OBOL:automatic]</definition>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0002111</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -537,10 +1005,21 @@ comment: Category=gene.</definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endothelial_cell_of_vascular_tree"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy>LMMA0000000078</rdfs:isDefinedBy>
-        <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0001916</rdfs:isDefinedBy>
-        <lungmap_preferred_label>arteriole endothelium</lungmap_preferred_label>
         <definition>UBERON: An endothelium that is part of an arteriole [Automatically generated definition]. [database_cross_reference: OBOL:automatic]</definition>
+        <lungmap_preferred_label>arteriole endothelium</lungmap_preferred_label>
+        <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0001916</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>LMMA0000000078</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#artery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#artery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#arterial_blood_vessel"/>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0001637</rdfs:isDefinedBy>
+        <definition>Definitions	
+An epithelial tube or tree of tibes that transports blood away from the heart[modified from AEO definition].</definition>
     </owl:Class>
     
 
@@ -552,23 +1031,25 @@ comment: Category=gene.</definition>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endothelium"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endothelial_cell_of_artery"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#artery"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <lungmap_preferred_label>artery endothelium</lungmap_preferred_label>
-        <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0001917</rdfs:isDefinedBy>
-        <rdfs:isDefinedBy>LungMap ID: LMMA0000000078</rdfs:isDefinedBy>
         <definition>UBERON: An endothelium that is part of an artery [Automatically generated definition]. [database_cross_reference: OBOL:automatic]</definition>
+        <rdfs:isDefinedBy>LungMap ID: LMMA0000000078</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0001917</rdfs:isDefinedBy>
+        <lungmap_preferred_label>artery endothelium</lungmap_preferred_label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchial_arteriole -->
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#blood_vessel -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchial_arteriole">
-        <rdfs:label>bronchial_arteriole</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#respiratory_system_blood_vessel"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#blood_vessel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#complex_anatomical_structure"/>
+        <rdfs:isDefinedBy>UBERON http://purl.obolibrary.org/obo/UBERON_0001981
+</rdfs:isDefinedBy>
+        <definition>UBERON definition: A vessel through which blood circulates in the body.</definition>
     </owl:Class>
     
 
@@ -577,16 +1058,16 @@ comment: Category=gene.</definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchial_artery">
         <rdfs:label>bronchial_artery</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchial_blood_vessel"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#artery"/>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000098</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0002040</rdfs:isDefinedBy>
+        <lungmap_preferred_label>bronchial artery</lungmap_preferred_label>
+        <definition>Definition UBERON: A systemic artery that supplies the lung with with oxygenated blood.</definition>
         <rdfs:comment>additional infroamtion that can be imported from Uberon:
 systemic artery and (part of some systemic arterial system) and (supplies some lung)
 
 additional notes:
  Although there is much variation, there are usually two bronchial arteries that run to the left lung, and one to the right lung.</rdfs:comment>
-        <definition>Definition UBERON: A systemic artery that supplies the lung with with oxygenated blood.</definition>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000098</rdfs:isDefinedBy>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0002040</rdfs:isDefinedBy>
-        <lungmap_preferred_label>bronchial artery</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -595,19 +1076,13 @@ additional notes:
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchial_artery_endothelium">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#artery_endothelium"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchial_artery"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <lungmap_preferred_label>bronchial artery endothelium</lungmap_preferred_label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchial_blood_vessel -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchial_blood_vessel">
-        <rdfs:label>bronchial_blood_vessel</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#respiratory_system_blood_vessel"/>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000104</rdfs:isDefinedBy>
-        <lungmap_preferred_label>bronchial blood vessel</lungmap_preferred_label>
-        <rdfs:comment>AMM proposed formal definitio blood_vessel part of some bronchiole</rdfs:comment>
     </owl:Class>
     
 
@@ -645,9 +1120,9 @@ additional notes:
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchiole"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>AMM: No present in UBERON need to be added</rdfs:comment>
-        <rdfs:isDefinedBy>LungMAp ID: LMMA0000000525</rdfs:isDefinedBy>
         <lungmap_preferred_label>bronchiolar connective</lungmap_preferred_label>
+        <rdfs:isDefinedBy>LungMAp ID: LMMA0000000525</rdfs:isDefinedBy>
+        <rdfs:comment>AMM: No present in UBERON need to be added</rdfs:comment>
     </owl:Class>
     
 
@@ -669,12 +1144,12 @@ additional notes:
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#transcription_factor_SOX-2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <definition>Definition in LungMAP: An epithelial cell that lines the intrapulmonary conducting airway, or bronchioles. The more proximal bronchioles are lined predominantly by ciliated cells with a greater proportion of club cells in the distal bronchioles.</definition>
-        <rdfs:isDefinedBy>CL ID: http://purl.obolibrary.org/obo/CL_0002328</rdfs:isDefinedBy>
-        <definition>Definition CL:  An epithelial cell of the bronchus. [database_cross_reference: GOC:tfm]</definition>
-        <rdfs:comment>needs to be check if CL and LungMap are refering to the same term</rdfs:comment>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000582</rdfs:isDefinedBy>
         <lungmap_preferred_label>bronchiolar epithelial cell</lungmap_preferred_label>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000582</rdfs:isDefinedBy>
+        <definition>Definition CL:  An epithelial cell of the bronchus. [database_cross_reference: GOC:tfm]</definition>
+        <rdfs:isDefinedBy>CL ID: http://purl.obolibrary.org/obo/CL_0002328</rdfs:isDefinedBy>
+        <definition>Definition in LungMAP: An epithelial cell that lines the intrapulmonary conducting airway, or bronchioles. The more proximal bronchioles are lined predominantly by ciliated cells with a greater proportion of club cells in the distal bronchioles.</definition>
+        <rdfs:comment>needs to be check if CL and LungMap are refering to the same term</rdfs:comment>
     </owl:Class>
     
 
@@ -684,10 +1159,10 @@ additional notes:
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchiole">
         <rdfs:label>bronchiole</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#complex_anatomical_structure"/>
-        <definition>Uberon Definition: The conducting airway of the lungs found terminal to the bronchi; these structures contain neither cartilage nor mucous-secreting glands; the epithelium of the bronchioles becomes thinner with each branching</definition>
-        <lungmap_preferred_label>bronchiole</lungmap_preferred_label>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0002186</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>LMMA0000000118</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0002186</rdfs:isDefinedBy>
+        <lungmap_preferred_label>bronchiole</lungmap_preferred_label>
+        <definition>Uberon Definition: The conducting airway of the lungs found terminal to the bronchi; these structures contain neither cartilage nor mucous-secreting glands; the epithelium of the bronchioles becomes thinner with each branching</definition>
     </owl:Class>
     
 
@@ -699,14 +1174,14 @@ additional notes:
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchiolar_epithelial_cell"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#participates_in"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cellular_proliferation"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#epithelium_of_bronchiole"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#epithelium_of_bronchiole"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#participates_in"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cellular_proliferation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -715,9 +1190,9 @@ additional notes:
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#histone_H3.3C"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy>LungMap ID: LMMA0000000599</rdfs:isDefinedBy>
-        <rdfs:comment>no present in CL need to be added</rdfs:comment>
         <lungmap_preferred_label>bronchiole proliferative epithelial cell</lungmap_preferred_label>
+        <rdfs:comment>no present in CL need to be added</rdfs:comment>
+        <rdfs:isDefinedBy>LungMap ID: LMMA0000000599</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -746,17 +1221,17 @@ additional notes:
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#chondroitin_sulfate_proteoglycan_4">
         <rdfs:label>chondroitin_sulfate_proteoglycan_4</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <has_synonym>NG2</has_synonym>
-        <has_synonym>CSPG4</has_synonym>
-        <has_synonym>chondroitin sulfate proteoglycan NG2</has_synonym>
-        <has_synonym>melanoma-associated chondroitin sulfate proteoglycan</has_synonym>
-        <has_synonym>AN2</has_synonym>
-        <has_synonym>proteoglycan AN2</has_synonym>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000005953</rdfs:isDefinedBy>
+        <has_synonym>melanoma chondroitin sulfate proteoglycan</has_synonym>
+        <has_synonym>4732461B14Rik</has_synonym>
         <definition>def: &quot;A protein that is a translation product of the human CSPG4 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
 comment: Category=gene.</definition>
-        <has_synonym>4732461B14Rik</has_synonym>
-        <has_synonym>melanoma chondroitin sulfate proteoglycan</has_synonym>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000005953</rdfs:isDefinedBy>
+        <has_synonym>proteoglycan AN2</has_synonym>
+        <has_synonym>AN2</has_synonym>
+        <has_synonym>melanoma-associated chondroitin sulfate proteoglycan</has_synonym>
+        <has_synonym>chondroitin sulfate proteoglycan NG2</has_synonym>
+        <has_synonym>CSPG4</has_synonym>
+        <has_synonym>NG2</has_synonym>
     </owl:Class>
     
 
@@ -766,9 +1241,15 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#ciliated_cell_precursor">
         <rdfs:label>ciliated_cell_precursor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchiolar_epithelial_cell"/>
-        <definition>Definition LungMap: An epithelial cell that is located in the conducting airways of the fetal lung in the late pseudoglandular stage of lug development (E15.5-E16.5). This cell is committed to the ciliated cell lineage, but is not fully differentiated. It expresses FOXJ1, a marker for ciliated cells, but does not have fully formed, functional. motile cilia.</definition>
-        <lungmap_preferred_label>ciliated cell precursor</lungmap_preferred_label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#distal_acinar_tubule_epithelium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:isDefinedBy>LungMap ID: LMMA0000000476</rdfs:isDefinedBy>
+        <lungmap_preferred_label>ciliated cell precursor</lungmap_preferred_label>
+        <definition>Definition LungMap: An epithelial cell that is located in the conducting airways of the fetal lung in the late pseudoglandular stage of lug development (E15.5-E16.5). This cell is committed to the ciliated cell lineage, but is not fully differentiated. It expresses FOXJ1, a marker for ciliated cells, but does not have fully formed, functional. motile cilia.</definition>
     </owl:Class>
     
 
@@ -787,10 +1268,10 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#connective">
         <rdfs:label>connective</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#tissue"/>
-        <lungmap_preferred_label>connective</lungmap_preferred_label>
-        <definition>UBERON:  A portion of connective tissue that is part of a respiratory system [Automatically generated definition]. [database_cross_reference: OBOL:automatic]</definition>
-        <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0003570</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>LungMap ID: LMMA0000000147</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0003570</rdfs:isDefinedBy>
+        <definition>UBERON:  A portion of connective tissue that is part of a respiratory system [Automatically generated definition]. [database_cross_reference: OBOL:automatic]</definition>
+        <lungmap_preferred_label>connective</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -800,9 +1281,9 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#distal_acinar_tubule_bud">
         <rdfs:label>distal_acinar_tubule_bud</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#acinar_tubule"/>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000003</rdfs:isDefinedBy>
-        <definition>Definition LungMAP: acinar bud, distal acinar bud, distal acinar tubule, peripheral acinar tubule bud, peripheral acinar tubule sprout. </definition>
         <lungmap_preferred_label>distal acinar tubule bud</lungmap_preferred_label>
+        <definition>Definition LungMAP: acinar bud, distal acinar bud, distal acinar tubule, peripheral acinar tubule bud, peripheral acinar tubule sprout. </definition>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000003</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -818,15 +1299,25 @@ comment: Category=gene.</definition>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#homeodomain-only_protein"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#distal_acinar_tubule_epithelium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <lungmap_preferred_label>distal acinar tubule epithelial cell</lungmap_preferred_label>
-        <rdfs:comment>no present in Cl need to be added</rdfs:comment>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000572</rdfs:isDefinedBy>
         <definition>Definition LungMAP: A cuboidal epithelial cell located in the distal acinar tubule, or bud, of the peripheral fetal lung in the pseudoglandular stage of lung development (E12.5-E16.5). These cells express cell-specific proteins (or markers) for pre-type II pneumocytes, such as surfactant protein C (SFTPC).</definition>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000572</rdfs:isDefinedBy>
+        <rdfs:comment>no present in Cl need to be added</rdfs:comment>
+        <lungmap_preferred_label>distal acinar tubule epithelial cell</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -842,31 +1333,8 @@ comment: Category=gene.</definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#distal_acinar_tubule_bud"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#immature_type_I_pneumocyte"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#immature_type_II_pneumocyte"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <lungmap_preferred_label>distal acinar tubule epithelium</lungmap_preferred_label>
         <rdfs:isDefinedBy>LMMA0000000423</rdfs:isDefinedBy>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#embryo_age -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#embryo_age">
-        <rdfs:label>embryo_age</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#process"/>
-        <rdfs:comment>has synonim age since fertilization measurement datum</rdfs:comment>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/OBI_0001168</rdfs:isDefinedBy>
+        <lungmap_preferred_label>distal acinar tubule epithelium</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -886,20 +1354,20 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endomucin">
         <rdfs:label>endomucin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <has_synonym>Muc14</has_synonym>
-        <has_synonym>emnc</has_synonym>
-        <has_synonym>0610012K22Rik</has_synonym>
-        <has_synonym>AI315669</has_synonym>
-        <has_synonym>endomucin-2</has_synonym>
-        <has_synonym>mucin-14</has_synonym>
-        <has_synonym>EMCN</has_synonym>
-        <has_synonym>Endomucin (Emcn)</has_synonym>
-        <has_synonym>MUC-14</has_synonym>
+        <has_synonym>endomucin-1/2</has_synonym>
+        <has_synonym>gastric cancer antigen Ga34</has_synonym>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000007049</rdfs:isDefinedBy>
         <definition>&quot;A protein that is a translation product of the human EMCN gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
 comment: Category=gene.</definition>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000007049</rdfs:isDefinedBy>
-        <has_synonym>gastric cancer antigen Ga34</has_synonym>
-        <has_synonym>endomucin-1/2</has_synonym>
+        <has_synonym>MUC-14</has_synonym>
+        <has_synonym>Endomucin (Emcn)</has_synonym>
+        <has_synonym>mucin-14</has_synonym>
+        <has_synonym>EMCN</has_synonym>
+        <has_synonym>endomucin-2</has_synonym>
+        <has_synonym>AI315669</has_synonym>
+        <has_synonym>0610012K22Rik</has_synonym>
+        <has_synonym>emnc</has_synonym>
+        <has_synonym>Muc14</has_synonym>
     </owl:Class>
     
 
@@ -908,17 +1376,11 @@ comment: Category=gene.</definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endothelial_cell">
         <rdfs:label>endothelial_cell</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endothelium"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cell"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endomucin"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#CD34"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -930,14 +1392,20 @@ comment: Category=gene.</definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#CD34"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endomucin"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <definition>Definition in LungMAP: A mesenchymal-derived, polygonal, rounded, flat, or squamous (&quot;scale-like&quot;) cell that lines the inner (luminal) surface of the blood vessels and lymphaic vessels. These cells contain vimentin filaments and are held together by junctional complexes to form a thin, continuous, endothelial cell layer or sheath (endothelium).</definition>
-        <rdfs:isDefinedBy>CL : http://purl.obolibrary.org/obo/CL_0000115</rdfs:isDefinedBy>
-        <definition>Definition in CL: An endothelial cell comprises the outermost layer or lining of anatomical structures and can be squamous or cuboidal. In mammals, endothelial cell has vimentin filaments and is derived from the mesoderm. [database_cross_reference: MESH:D042783][database_cross_reference: GOC:tfm][database_cross_reference: http://en.wikipedia.org/wiki/Endothelial_cell][database_cross_reference: https://sourceforge.net/tracker/?func=detail&amp;atid=440764&amp;aid=3364936&amp;group_id=36855][database_cross_reference: PMID:21275341]</definition>
-        <lungmap_preferred_label>endothelial cell</lungmap_preferred_label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endothelium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:isDefinedBy>LungMAP ID: LMMA0000000343</rdfs:isDefinedBy>
+        <lungmap_preferred_label>endothelial cell</lungmap_preferred_label>
+        <definition>Definition in LungMAP: A mesenchymal-derived, polygonal, rounded, flat, or squamous (&quot;scale-like&quot;) cell that lines the inner (luminal) surface of the blood vessels and lymphaic vessels. These cells contain vimentin filaments and are held together by junctional complexes to form a thin, continuous, endothelial cell layer or sheath (endothelium).</definition>
+        <definition>Definition in CL: An endothelial cell comprises the outermost layer or lining of anatomical structures and can be squamous or cuboidal. In mammals, endothelial cell has vimentin filaments and is derived from the mesoderm. [database_cross_reference: MESH:D042783][database_cross_reference: GOC:tfm][database_cross_reference: http://en.wikipedia.org/wiki/Endothelial_cell][database_cross_reference: https://sourceforge.net/tracker/?func=detail&amp;atid=440764&amp;aid=3364936&amp;group_id=36855][database_cross_reference: PMID:21275341]</definition>
+        <rdfs:isDefinedBy>CL : http://purl.obolibrary.org/obo/CL_0000115</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -953,10 +1421,10 @@ comment: Category=gene.</definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#artery_endothelium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <lungmap_preferred_label>endothelial cell of vascular tree</lungmap_preferred_label>
-        <rdfs:isDefinedBy>CL ID: http://purl.obolibrary.org/obo/CL_1001568</rdfs:isDefinedBy>
-        <rdfs:isDefinedBy>LungMap ID: LMMA0000000616</rdfs:isDefinedBy>
         <definition>Definition CL: A blood vessel endothelial cell that is part of an arterial endothelium. [database_cross_reference: GOC:tfm]</definition>
+        <rdfs:isDefinedBy>LungMap ID: LMMA0000000616</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>CL ID: http://purl.obolibrary.org/obo/CL_1001568</rdfs:isDefinedBy>
+        <lungmap_preferred_label>endothelial cell of vascular tree</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -972,12 +1440,12 @@ comment: Category=gene.</definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#vascular_tree_endothelium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>comment in CL: These cells are reportedly CD31-positive, CD34-positive, CD144-positive, TAL1-positive.</rdfs:comment>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/CL_0002139</rdfs:isDefinedBy>
+        <lungmap_preferred_label>endothelial cell of vascular tree</lungmap_preferred_label>
+        <definition>Definition CL: An endothelial cell of the vascular tree, which includes blood vessels and lymphatic vessels. [database_cross_reference: GOC:tfm][database_cross_reference: GOC:dsd][database_cross_reference: PMID:12768659]</definition>
         <rdfs:isDefinedBy>Definition: An endothelial cell of the vascular tree, which includes blood vessels and lymphatic vessels.
 LMMA0000000392</rdfs:isDefinedBy>
-        <definition>Definition CL: An endothelial cell of the vascular tree, which includes blood vessels and lymphatic vessels. [database_cross_reference: GOC:tfm][database_cross_reference: GOC:dsd][database_cross_reference: PMID:12768659]</definition>
-        <lungmap_preferred_label>endothelial cell of vascular tree</lungmap_preferred_label>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/CL_0002139</rdfs:isDefinedBy>
+        <rdfs:comment>comment in CL: These cells are reportedly CD31-positive, CD34-positive, CD144-positive, TAL1-positive.</rdfs:comment>
     </owl:Class>
     
 
@@ -987,10 +1455,10 @@ LMMA0000000392</rdfs:isDefinedBy>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endothelium">
         <rdfs:label>endothelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#tissue"/>
-        <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0001986</rdfs:isDefinedBy>
-        <lungmap_preferred_label>endothelium</lungmap_preferred_label>
-        <definition>UBERON: A layer of epithelium that lines the heart, blood vessels (endothelium, vascular), lymph vessels (endothelium, lymphatic), and the serous cavities of the body[MESH]. Simple squamous epithelium which lines blood and lymphatic vessels and the heart[FMA] [database_cross_reference: https://github.com/obophenotype/uberon/issues/225][database_cross_reference: FMA:63916][database_cross_reference: MESH:A10.272.491]</definition>
         <rdfs:isDefinedBy>LungMap ID: LMMA0000000162</rdfs:isDefinedBy>
+        <definition>UBERON: A layer of epithelium that lines the heart, blood vessels (endothelium, vascular), lymph vessels (endothelium, lymphatic), and the serous cavities of the body[MESH]. Simple squamous epithelium which lines blood and lymphatic vessels and the heart[FMA] [database_cross_reference: https://github.com/obophenotype/uberon/issues/225][database_cross_reference: FMA:63916][database_cross_reference: MESH:A10.272.491]</definition>
+        <lungmap_preferred_label>endothelium</lungmap_preferred_label>
+        <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0001986</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -1006,11 +1474,11 @@ LMMA0000000392</rdfs:isDefinedBy>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#epithelium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <definition>Definition LungMap: Cells that line the inner and outer surfaces of the body by forming single or mutliple cell layers or sheets (epithelia). Epithelial cells lining the respiratory system are derived from endoderm. Epithelial cells can be classified by cell shape into squamous, cuboidal, columnar, and transitional epithelial cells. They have a cytoskeleton that allows for tight cell-to-cell contact and cell polarity</definition>
-        <lungmap_preferred_label>epithelial cell</lungmap_preferred_label>
+        <rdfs:isDefinedBy>LungMap ID: LMMA0000000164</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/CL_0000066</rdfs:isDefinedBy>
         <definition>Definition CL: A cell that is usually found in a two-dimensional sheet with a free surface. The cell has a cytoskeleton that allows for tight cell to cell contact and for cell polarity where apical part is directed towards the lumen and the basal part to the basal lamina. [database_cross_reference: GOC:tfm][database_cross_reference: FB:ma][database_cross_reference: MESH:A11.436]</definition>
-        <rdfs:isDefinedBy>LungMap ID: LMMA0000000164</rdfs:isDefinedBy>
+        <lungmap_preferred_label>epithelial cell</lungmap_preferred_label>
+        <definition>Definition LungMap: Cells that line the inner and outer surfaces of the body by forming single or mutliple cell layers or sheets (epithelia). Epithelial cells lining the respiratory system are derived from endoderm. Epithelial cells can be classified by cell shape into squamous, cuboidal, columnar, and transitional epithelial cells. They have a cytoskeleton that allows for tight cell-to-cell contact and cell polarity</definition>
     </owl:Class>
     
 
@@ -1020,12 +1488,6 @@ LMMA0000000392</rdfs:isDefinedBy>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#epithelial_cell_of_the_lung">
         <rdfs:label>epithelial_cell_of_the_lung</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#epithelial_cell"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#arl13b"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
@@ -1038,10 +1500,16 @@ LMMA0000000392</rdfs:isDefinedBy>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#homeobox_protein_Nkx-2.1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <lungmap_preferred_label>epithelial cell of the lung</lungmap_preferred_label>
-        <rdfs:isDefinedBy>CL ID: http://purl.obolibrary.org/obo/CL_0000082</rdfs:isDefinedBy>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000164</rdfs:isDefinedBy>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#arl13b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <definition>Definition LungMAP: Cells that line the inner and outer surfaces of the body by forming single or mutliple cell layers or sheets (epithelia). Epithelial cells lining the respiratory system are derived from endoderm. Epithelial cells can be classified by cell shape into squamous, cuboidal, columnar, and transitional epithelial cells. They have a cytoskeleton that allows for tight cell-to-cell contact and cell polarity.</definition>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000164</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>CL ID: http://purl.obolibrary.org/obo/CL_0000082</rdfs:isDefinedBy>
+        <lungmap_preferred_label>epithelial cell of the lung</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -1051,9 +1519,9 @@ LMMA0000000392</rdfs:isDefinedBy>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#epithelium">
         <rdfs:label>epithelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#tissue"/>
-        <rdfs:isDefinedBy>UBERON ID:  http://purl.obolibrary.org/obo/UBERON_0000483</rdfs:isDefinedBy>
-        <definition>UBERON:  Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina. Examples: simple squamous epithelium, glandular cuboidal epithelium, transitional epithelium, myoepithelium[CARO]. [database_cross_reference: http://orcid.org/0000-0001-9114-8737][database_cross_reference: http://en.wikipedia.org/wiki/Epithelium]</definition>
         <lungmap_preferred_label>epithelium</lungmap_preferred_label>
+        <definition>UBERON:  Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina. Examples: simple squamous epithelium, glandular cuboidal epithelium, transitional epithelium, myoepithelium[CARO]. [database_cross_reference: http://orcid.org/0000-0001-9114-8737][database_cross_reference: http://en.wikipedia.org/wiki/Epithelium]</definition>
+        <rdfs:isDefinedBy>UBERON ID:  http://purl.obolibrary.org/obo/UBERON_0000483</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -1069,13 +1537,13 @@ LMMA0000000392</rdfs:isDefinedBy>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchiole"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <definition>Uberon def: An epithelium that is part of a bronchiole [Automatically generated definition].</definition>
+        <lungmap_preferred_label>epithelium of bronchiole</lungmap_preferred_label>
+        <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0002051</rdfs:isDefinedBy>
         <rdfs:comment>Age Range(s):	E16.5, E18.5, P0-P3, P4-P36
 Theiler Stage(s):	TS24, TS26, TS27, TS28
 Developmental Stage(s):	alveolar stage, canalicular stage, saccular stage</rdfs:comment>
         <rdfs:isDefinedBy>LungMap ID: LMMA0000000115</rdfs:isDefinedBy>
-        <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0002051</rdfs:isDefinedBy>
-        <lungmap_preferred_label>epithelium of bronchiole</lungmap_preferred_label>
-        <definition>Uberon def: An epithelium that is part of a bronchiole [Automatically generated definition].</definition>
     </owl:Class>
     
 
@@ -1085,6 +1553,12 @@ Developmental Stage(s):	alveolar stage, canalicular stage, saccular stage</rdfs:
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#epithelium_of_respiratory_bronchiole">
         <rdfs:label>epithelium_of_respiratory_bronchiole</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#epithelium_of_bronchiole"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#respiratory_bronchiole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <lungmap_preferred_label>epithelium of respiratory bronchiole</lungmap_preferred_label>
     </owl:Class>
     
@@ -1097,21 +1571,21 @@ Developmental Stage(s):	alveolar stage, canalicular stage, saccular stage</rdfs:
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cell"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Vimentin"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#interstitial_tissue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <lungmap_preferred_label>fibroblast</lungmap_preferred_label>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000169</rdfs:isDefinedBy>
-        <rdfs:isDefinedBy>CL ID: http://purl.obolibrary.org/obo/CL_0002553</rdfs:isDefinedBy>
-        <definition>definition CL: A fibroblast that is part of lung. [database_cross_reference: GOC:tfm]</definition>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Vimentin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <definition>definition LungMap: A connective tissue cell that secretes an extracellular matrix rich in collagen and other macromolecules. Flattened and irregular in outline with branching processes; appear fusiform or spindle-shaped.</definition>
+        <definition>definition CL: A fibroblast that is part of lung. [database_cross_reference: GOC:tfm]</definition>
+        <rdfs:isDefinedBy>CL ID: http://purl.obolibrary.org/obo/CL_0002553</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000169</rdfs:isDefinedBy>
+        <lungmap_preferred_label>fibroblast</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -1121,14 +1595,14 @@ Developmental Stage(s):	alveolar stage, canalicular stage, saccular stage</rdfs:
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#histone_H3.3C">
         <rdfs:label>histone_H3.3C</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000029067</Cytoscape_view_in_PRO>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000029067</rdfs:isDefinedBy>
-        <has_synonym>pHisH3</has_synonym>
-        <has_synonym>Histone H3.5</has_synonym>
-        <has_synonym>p-Histone H3</has_synonym>
         <rdfs:comment>histone H3 only when phosphorylated at Ser10
 
 human </rdfs:comment>
+        <has_synonym>Histone H3.5</has_synonym>
+        <has_synonym>p-Histone H3</has_synonym>
+        <has_synonym>pHisH3</has_synonym>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000029067</rdfs:isDefinedBy>
+        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000029067</Cytoscape_view_in_PRO>
     </owl:Class>
     
 
@@ -1138,26 +1612,26 @@ human </rdfs:comment>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#homeobox_protein_Nkx-2.1">
         <rdfs:label>homeobox_protein_Nkx-2.1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <has_synonym>NKX21</has_synonym>
-        <has_synonym>TTF1</has_synonym>
-        <has_synonym>NKX2.1</has_synonym>
-        <has_synonym>T/EBP</has_synonym>
-        <has_synonym>BHC</has_synonym>
-        <has_synonym>NKX2A</has_synonym>
-        <has_synonym>homeobox protein NK-2 homolog A</has_synonym>
-        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000011241</Cytoscape_view_in_PRO>
-        <has_synonym>TEBP</has_synonym>
-        <has_synonym>TITF1</has_synonym>
-        <has_synonym>NMTC1</has_synonym>
-        <has_synonym>NK-2</has_synonym>
-        <has_synonym>NK2</has_synonym>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000011241</rdfs:isDefinedBy>
-        <definition>&quot;A protein that is a translation product of the human NKX2-1 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
-comment: Category=gene.</definition>
-        <has_synonym>thyroid nuclear factor 1</has_synonym>
-        <has_synonym>Nkx-2.1</has_synonym>
         <has_synonym>BCH</has_synonym>
         <has_synonym>TTF-1</has_synonym>
+        <has_synonym>Nkx-2.1</has_synonym>
+        <has_synonym>thyroid nuclear factor 1</has_synonym>
+        <definition>&quot;A protein that is a translation product of the human NKX2-1 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
+comment: Category=gene.</definition>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000011241</rdfs:isDefinedBy>
+        <has_synonym>NK2</has_synonym>
+        <has_synonym>NK-2</has_synonym>
+        <has_synonym>NMTC1</has_synonym>
+        <has_synonym>TITF1</has_synonym>
+        <has_synonym>TEBP</has_synonym>
+        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000011241</Cytoscape_view_in_PRO>
+        <has_synonym>homeobox protein NK-2 homolog A</has_synonym>
+        <has_synonym>NKX2A</has_synonym>
+        <has_synonym>BHC</has_synonym>
+        <has_synonym>T/EBP</has_synonym>
+        <has_synonym>NKX2.1</has_synonym>
+        <has_synonym>TTF1</has_synonym>
+        <has_synonym>NKX21</has_synonym>
     </owl:Class>
     
 
@@ -1167,16 +1641,16 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#homeodomain-only_protein">
         <rdfs:label>homeodomain-only_protein</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <has_synonym>Odd homeobox protein 1</has_synonym>
-        <has_synonym>homeobox-only protein</has_synonym>
-        <has_synonym>HOPX</has_synonym>
-        <has_synonym>Hopx</has_synonym>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000008685</rdfs:isDefinedBy>
         <definition>&quot;A protein that is a translation product of the human HOPX gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
 comment: Category=gene.</definition>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000008685</rdfs:isDefinedBy>
-        <has_synonym>HOP Homeobox</has_synonym>
-        <has_synonym>not expressed in choriocarcinoma protein 1</has_synonym>
+        <has_synonym>Hopx</has_synonym>
+        <has_synonym>HOPX</has_synonym>
         <has_synonym>lung cancer-associated Y protein</has_synonym>
+        <has_synonym>homeobox-only protein</has_synonym>
+        <has_synonym>not expressed in choriocarcinoma protein 1</has_synonym>
+        <has_synonym>Odd homeobox protein 1</has_synonym>
+        <has_synonym>HOP Homeobox</has_synonym>
     </owl:Class>
     
 
@@ -1194,23 +1668,16 @@ comment: Category=gene.</definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#immature_club_cell">
         <rdfs:label>immature_club_cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchiolar_epithelial_cell"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#epithelium_of_bronchiole"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#uteroglobin"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>no present in CL need to be added</rdfs:comment>
+        <definition>Definition LungMap: A partially differentiated fetal club cell, whose cytoplasm contains abundant glycogen granules. Full differentiation occurs postnatally when glycogen levels decrease and secretory granules increase.</definition>
         <rdfs:isDefinedBy>LungMap ID: LMMA0000000184</rdfs:isDefinedBy>
         <lungmap_preferred_label>immature club cell</lungmap_preferred_label>
-        <definition>Definition LungMap: A partially differentiated fetal club cell, whose cytoplasm contains abundant glycogen granules. Full differentiation occurs postnatally when glycogen levels decrease and secretory granules increase.</definition>
-        <rdfs:comment>no present in CL need to be added</rdfs:comment>
     </owl:Class>
     
 
@@ -1223,7 +1690,13 @@ comment: Category=gene.</definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#distal_acinar_tubule_epithelium"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#neuroepithelial_body"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#transcription_factor_SOX-9"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1235,26 +1708,20 @@ comment: Category=gene.</definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#transcription_factor_SOX-9"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_surfactant-associated_protein_C"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#neuroepithelial_body"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#distal_acinar_tubule_epithelium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_surfactant-associated_protein_C"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment>AMM: not present in CL need to be added</rdfs:comment>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000382</rdfs:isDefinedBy>
-        <rdfs:comment>AMM: something is wrong in the lungmap hierarchy  since the pneumocyte type I and type II and proliferative epithelial cell are both listed as children of distal acinar cell and proximal acinar cell. That is inconsistent </rdfs:comment>
-        <definition>Definition LungMAP: A fetal type II peumocyte that is structurally and biochemically immature. This cell is glycogen-rich with lamellar bodies in various stages of formation. Metabolically, large stores of glycogen are required to support surfactant lipid synthesis and lamellar body formation in this cell.</definition>
         <lungmap_preferred_label>immature type II pneumocyte</lungmap_preferred_label>
+        <definition>Definition LungMAP: A fetal type II peumocyte that is structurally and biochemically immature. This cell is glycogen-rich with lamellar bodies in various stages of formation. Metabolically, large stores of glycogen are required to support surfactant lipid synthesis and lamellar body formation in this cell.</definition>
+        <rdfs:comment>AMM: something is wrong in the lungmap hierarchy  since the pneumocyte type I and type II and proliferative epithelial cell are both listed as children of distal acinar cell and proximal acinar cell. That is inconsistent </rdfs:comment>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000382</rdfs:isDefinedBy>
+        <rdfs:comment>AMM: not present in CL need to be added</rdfs:comment>
     </owl:Class>
     
 
@@ -1283,12 +1750,12 @@ comment: Category=gene.</definition>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>AMM: something is wrong in the lungmap hierarchy  since the pneumocyte type I and type II and proliferative epithelial cell are both listed as children of distal acinar cell and proximal acinar cell. That is inconsistent </rdfs:comment>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000380</rdfs:isDefinedBy>
-        <rdfs:comment>AMM: not present in CL need to be added</rdfs:comment>
+        <has_synonym>immature AT1, pre-type I pneumocyte</has_synonym>
         <lungmap_preferred_label>immature type I pneumocyte</lungmap_preferred_label>
         <definition>Definition LungMAP: A fetal type I pneumocytes that is structurally immature. This former cuboidal-like cell changes shape to a flat, squamous-like cell, thinning and spreading over the luminal surface of the expanding terminal and/or primary alveolar saccule during late fetal lung development (E17.5 - E19.5). This process requires extensive membrane enlargement and reorganization of the cytoskeleton.</definition>
-        <has_synonym>immature AT1, pre-type I pneumocyte</has_synonym>
+        <rdfs:comment>AMM: not present in CL need to be added</rdfs:comment>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000380</rdfs:isDefinedBy>
+        <rdfs:comment>AMM: something is wrong in the lungmap hierarchy  since the pneumocyte type I and type II and proliferative epithelial cell are both listed as children of distal acinar cell and proximal acinar cell. That is inconsistent </rdfs:comment>
     </owl:Class>
     
 
@@ -1306,6 +1773,12 @@ comment: Category=gene.</definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#proximal_acinar_tubule_epithelium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_surfactant-associated_protein_C"/>
             </owl:Restriction>
@@ -1316,22 +1789,10 @@ comment: Category=gene.</definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#periarterial_connective_tissue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#epithelium_of_respiratory_bronchiole"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#proximal_acinar_tubule_epithelium"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <lungmap_preferred_label>intermediate pneumocyte</lungmap_preferred_label>
-        <rdfs:comment>AMM: not present in CL need to be added</rdfs:comment>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000187</rdfs:isDefinedBy>
         <definition>Definition LungMAP: A pneumocyte with characteristics of both type I and type II precursor cells, identified by co-expression of SFTPC (a type II cell marker) and HOPX (a type I cell marker).</definition>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000187</rdfs:isDefinedBy>
+        <rdfs:comment>AMM: not present in CL need to be added</rdfs:comment>
+        <lungmap_preferred_label>intermediate pneumocyte</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -1346,9 +1807,9 @@ comment: Category=gene.</definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchiolar_connective_tissue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <definition>LungMap definition: A mesenchymal-derived, connective tissue cell located in the interstitial space (i.e., interstitium or connective tissue compartments) of the lung.</definition>
-        <rdfs:isDefinedBy>LungMap ID: LMHA0000000192</rdfs:isDefinedBy>
         <rdfs:comment>not present in CL too generic </rdfs:comment>
+        <rdfs:isDefinedBy>LungMap ID: LMHA0000000192</rdfs:isDefinedBy>
+        <definition>LungMap definition: A mesenchymal-derived, connective tissue cell located in the interstitial space (i.e., interstitium or connective tissue compartments) of the lung.</definition>
     </owl:Class>
     
 
@@ -1358,9 +1819,9 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#interstitial_tissue">
         <rdfs:label>interstitial_tissue</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#tissue"/>
-        <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0005169</rdfs:isDefinedBy>
-        <definition>UBERON: Connective tissue between the cellular elements of a structure. [database_cross_reference: http://medical-dictionary.thefreedictionary.com/tissue]</definition>
         <lungmap_preferred_label>interstitial tissue</lungmap_preferred_label>
+        <definition>UBERON: Connective tissue between the cellular elements of a structure. [database_cross_reference: http://medical-dictionary.thefreedictionary.com/tissue]</definition>
+        <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0005169</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -1380,8 +1841,8 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lobule">
         <rdfs:label>lobule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#complex_anatomical_structure"/>
-        <lungmap_preferred_label>lobule</lungmap_preferred_label>
         <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0009911</rdfs:isDefinedBy>
+        <lungmap_preferred_label>lobule</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -1391,10 +1852,10 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lung">
         <rdfs:label>lung</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#complex_anatomical_structure"/>
-        <definition>Definition Uberon: Respiration organ that develops as an oupocketing of the esophagus. [database_cross_reference: http://orcid.org/0000-0002-6601-2165]</definition>
-        <rdfs:isDefinedBy>LungMap ID: LMMA0000000211</rdfs:isDefinedBy>
-        <lungmap_preferred_label>lung</lungmap_preferred_label>
         <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0002048</rdfs:isDefinedBy>
+        <lungmap_preferred_label>lung</lungmap_preferred_label>
+        <rdfs:isDefinedBy>LungMap ID: LMMA0000000211</rdfs:isDefinedBy>
+        <definition>Definition Uberon: Respiration organ that develops as an oupocketing of the esophagus. [database_cross_reference: http://orcid.org/0000-0002-6601-2165]</definition>
     </owl:Class>
     
 
@@ -1407,13 +1868,13 @@ comment: Category=gene.</definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lung_epithelium"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lung"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <definition>UBERON: The epithelial layer of the lung. [database_cross_reference: MP:0006382]</definition>
-        <lungmap_preferred_label>lung epithelium</lungmap_preferred_label>
-        <rdfs:isDefinedBy>LungMap ID: LMMA0000000166</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0000115</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>LungMap ID: LMMA0000000166</rdfs:isDefinedBy>
+        <lungmap_preferred_label>lung epithelium</lungmap_preferred_label>
+        <definition>UBERON: The epithelial layer of the lung. [database_cross_reference: MP:0006382]</definition>
     </owl:Class>
     
 
@@ -1429,11 +1890,11 @@ comment: Category=gene.</definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#CALCA"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/CL_1000223</rdfs:isDefinedBy>
-        <definition>Definition LungMap:An endocrine cell that produces and secretes neurotransmitters and neuropeptide hormones in response to neuronal signals. In the lung, these cells are found as single cells or in cell clusters (neuroepithelial bodies) and are located in the epithelium of the conducting airways, including trachea, bronchi, and bronchioles.</definition>
-        <rdfs:isDefinedBy>LungMap ID: LMMA0000000252</rdfs:isDefinedBy>
-        <lungmap_preferred_label>lung neuroendocrine cell</lungmap_preferred_label>
         <definition>Definition CL: An endocrine cell that has the specialized function to produce and secrete hormones in response to neuronal signals. [database_cross_reference: MESH:A06.688]</definition>
+        <lungmap_preferred_label>lung neuroendocrine cell</lungmap_preferred_label>
+        <rdfs:isDefinedBy>LungMap ID: LMMA0000000252</rdfs:isDefinedBy>
+        <definition>Definition LungMap:An endocrine cell that produces and secretes neurotransmitters and neuropeptide hormones in response to neuronal signals. In the lung, these cells are found as single cells or in cell clusters (neuroepithelial bodies) and are located in the epithelium of the conducting airways, including trachea, bronchi, and bronchioles.</definition>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/CL_1000223</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -1452,15 +1913,23 @@ comment: Category=gene.</definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_lymphatic_endothelium"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lymphatic_endothelium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy>LungMap ID: Lung Ontology : LMMA0000000216 </rdfs:isDefinedBy>
-        <definition>Definition LungMap:  A mesenchymal-derived, squamous (flat), endothelial cell that lines the inner (i.e., luminal) surface of lymphatic vessels, forming a continuous, thin, endothelial cell layer or sheath (endothelium).</definition>
-        <has_synonym>endothelial cell of lymphatic vessel</has_synonym>
-        <definition>Definition CL: A endothelial cell of a lymphatic vessel. The border of the oak leaf-shaped endothelial cell of initial lymphatics are joined by specialized buttons. The discontinuous feature of buttons distinguishes them from zippers in collecting lymphatics, but both types of junctions are composed of proteins typical of adherens junctions and tight junctions found in the endothelium of blood vessels. Buttons seal the sides of flaps of the oak leaf-shaped endothelial cell, leaving open the tips of flaps as routes for fluid entry without disassembly and reformation of intercellular junctions. [database_cross_reference: PMID:17846148][database_cross_reference: GOC:tfm]</definition>
-        <rdfs:isDefinedBy>CL: http://purl.obolibrary.org/obo/CL_0002138</rdfs:isDefinedBy>
         <lungmap_preferred_label>lymphatic endothelial cell</lungmap_preferred_label>
+        <rdfs:isDefinedBy>CL: http://purl.obolibrary.org/obo/CL_0002138</rdfs:isDefinedBy>
+        <definition>Definition CL: A endothelial cell of a lymphatic vessel. The border of the oak leaf-shaped endothelial cell of initial lymphatics are joined by specialized buttons. The discontinuous feature of buttons distinguishes them from zippers in collecting lymphatics, but both types of junctions are composed of proteins typical of adherens junctions and tight junctions found in the endothelium of blood vessels. Buttons seal the sides of flaps of the oak leaf-shaped endothelial cell, leaving open the tips of flaps as routes for fluid entry without disassembly and reformation of intercellular junctions. [database_cross_reference: PMID:17846148][database_cross_reference: GOC:tfm]</definition>
+        <has_synonym>endothelial cell of lymphatic vessel</has_synonym>
+        <definition>Definition LungMap:  A mesenchymal-derived, squamous (flat), endothelial cell that lines the inner (i.e., luminal) surface of lymphatic vessels, forming a continuous, thin, endothelial cell layer or sheath (endothelium).</definition>
+        <rdfs:isDefinedBy>LungMap ID: Lung Ontology : LMMA0000000216 </rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lymphatic_endothelium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lymphatic_endothelium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endothelium"/>
     </owl:Class>
     
 
@@ -1470,16 +1939,16 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lymphatic_vessel_endothelial_hyaluronic_acid_receptor_1">
         <rdfs:label>lymphatic_vessel_endothelial_hyaluronic_acid_receptor_1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <has_synonym>CRSBP-1</has_synonym>
-        <has_synonym>LYVE1</has_synonym>
+        <has_synonym>extracellular link domain-containing protein 1</has_synonym>
+        <has_synonym>Lyve-1</has_synonym>
         <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000010012</rdfs:isDefinedBy>
-        <has_synonym>cell surface retention sequence-binding protein 1</has_synonym>
-        <has_synonym>hyaluronic acid receptor</has_synonym>
         <definition>&quot;A protein that is a translation product of the human LYVE1 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
 comment: Category=gene.</definition>
         <has_synonym>LYVE-1</has_synonym>
-        <has_synonym>Lyve-1</has_synonym>
-        <has_synonym>extracellular link domain-containing protein 1</has_synonym>
+        <has_synonym>LYVE1</has_synonym>
+        <has_synonym>hyaluronic acid receptor</has_synonym>
+        <has_synonym>CRSBP-1</has_synonym>
+        <has_synonym>cell surface retention sequence-binding protein 1</has_synonym>
     </owl:Class>
     
 
@@ -1488,6 +1957,25 @@ comment: Category=gene.</definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#macromolecule">
         <rdfs:label>macromolecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#measurament_datum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#measurament_datum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Information_content_entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#mouse_embryo_age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#mouse_embryo_age">
+        <rdfs:label>mouse_embryo_age</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#process"/>
+        <rdfs:comment>has synonim age since fertilization measurement datum</rdfs:comment>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/OBI_0001168</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -1513,11 +2001,27 @@ comment: Category=gene.</definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#alpha-actin-2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <lungmap_preferred_label>myofibroblast</lungmap_preferred_label>
-        <definition>Definition in LungMAP: A stromal cell combining the features of a fibroblast and a smooth muscle cell, such as alpha-smooth-muscle-actin positive, contractile myofilaments</definition>
-        <definition>definition CL: A fibroblasts found in interstitial spaces in the pulmonary tract. Greater numbers of these cells are found in idiopathic pulmonary fibrosis. [database_cross_reference: GOC:tfm]</definition>
-        <rdfs:isDefinedBy>LungMAP ID: LMHA0000000243</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>CL ID:  http://purl.obolibrary.org/obo/CL_0002241</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>LungMAP ID: LMHA0000000243</rdfs:isDefinedBy>
+        <definition>definition CL: A fibroblasts found in interstitial spaces in the pulmonary tract. Greater numbers of these cells are found in idiopathic pulmonary fibrosis. [database_cross_reference: GOC:tfm]</definition>
+        <definition>Definition in LungMAP: A stromal cell combining the features of a fibroblast and a smooth muscle cell, such as alpha-smooth-muscle-actin positive, contractile myofilaments</definition>
+        <lungmap_preferred_label>myofibroblast</lungmap_preferred_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#nerve_fiber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#nerve_fiber">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#complex_anatomical_structure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#tubulin_alpha-1A_chain"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0006134</rdfs:isDefinedBy>
+        <definition>Uberon Definition: A threadlike extension of a nerve cell and consists of an axon and myelin sheath (if it is myelinated) in the nervous system. There are nerve fibers in the central nervous system and peripheral nervous system. A nerve fiber may be myelinated and/or unmyelinated. In the central nervous system (CNS), myelin by oligodendroglia cells is formed. Schwann cells form myelin in the peripheral nervous system (PNS). Schwann cells also make a thin covering in an axon without myelin (in the PNS). A peripheral nerve fiber contains an axon, myelin sheath, schwann cells and its endoneurium. There are no endoneurium and schwann cells in the central nervous system. [database_cross_reference: http://en.wikipedia.org/wiki/Nervous_system_fiber]</definition>
     </owl:Class>
     
 
@@ -1529,15 +2033,21 @@ comment: Category=gene.</definition>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#complex_anatomical_structure"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchiole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lung_neuroendocrine_cell"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <lungmap_preferred_label>neuroepithelial body</lungmap_preferred_label>
-        <rdfs:comment>AMM: For me is an anatomical entity e not a cell since is a group of cell</rdfs:comment>
-        <definition>UNBERON: Corpuscular, organoid structures composed of PNECs, found as distinctive innervated clusters only within intrapulmonary airways, where they appear concentrated at airway branch points; NEBs reach from the basement membrane to the airway lumen and are thought to function as oxygen sensors. [database_cross_reference: MP:0010921]</definition>
-        <rdfs:isDefinedBy>LungMap ID: LMMA0000000253</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>Uberon ID: http://purl.obolibrary.org/obo/UBERON_0010002</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>LungMap ID: LMMA0000000253</rdfs:isDefinedBy>
+        <definition>UNBERON: Corpuscular, organoid structures composed of PNECs, found as distinctive innervated clusters only within intrapulmonary airways, where they appear concentrated at airway branch points; NEBs reach from the basement membrane to the airway lumen and are thought to function as oxygen sensors. [database_cross_reference: MP:0010921]</definition>
+        <rdfs:comment>AMM: For me is an anatomical entity e not a cell since is a group of cell</rdfs:comment>
+        <lungmap_preferred_label>neuroepithelial body</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -1573,11 +2083,11 @@ comment: Category=gene.</definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#chondroitin_sulfate_proteoglycan_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000273</rdfs:isDefinedBy>
-        <definition>Definition LungMAP: Unique slender cells with multiple processes extending along the capillary vessel and encircling the vascular wall to form a net around the vessel. These cells are embedded in the basement membrane shared with the endothelial cells of the vessel. They are are important in maintaining vessel integrity, angiogenesis, and vascular remodeling.</definition>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/CL_0000669</rdfs:isDefinedBy>
         <lungmap_preferred_label>pericyte</lungmap_preferred_label>
         <definition>Definition CL: An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane. Pericytes are present in capillaries where proper adventitia and muscle layer are missing (thus distingushing this cell type from adventitial cells). They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells. [database_cross_reference: PMID:20024907][database_cross_reference: MESH:D020286][database_cross_reference: PMID:17986482][database_cross_reference: GOC:dsd][database_cross_reference: ISBN:0721662544][database_cross_reference: PMID:16807374][database_cross_reference: GOC:tfm]</definition>
+        <definition>Definition LungMAP: Unique slender cells with multiple processes extending along the capillary vessel and encircling the vascular wall to form a net around the vessel. These cells are embedded in the basement membrane shared with the endothelial cells of the vessel. They are are important in maintaining vessel integrity, angiogenesis, and vascular remodeling.</definition>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/CL_0000669</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000273</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -1596,13 +2106,22 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#platelet_endothelial_cell_adhesion_molecule">
         <rdfs:label>platelet_endothelial_cell_adhesion_molecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <has_synonym>EndoCAM</has_synonym>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000001904</rdfs:isDefinedBy>
-        <has_synonym>Pecam-1</has_synonym>
-        <has_synonym>PECAM-1</has_synonym>
-        <has_synonym>GPIIA&#39;</has_synonym>
-        <has_synonym>PECA1</has_synonym>
         <has_synonym>CD31</has_synonym>
+        <has_synonym>PECA1</has_synonym>
+        <has_synonym>GPIIA&apos;</has_synonym>
+        <has_synonym>PECAM-1</has_synonym>
+        <has_synonym>Pecam-1</has_synonym>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000001904</rdfs:isDefinedBy>
+        <has_synonym>EndoCAM</has_synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#postnatal_day">
+        <rdfs:label>postnatal_day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#process"/>
     </owl:Class>
     
 
@@ -1612,8 +2131,8 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pre_alveolar_capillary_endothelium">
         <rdfs:label>pre_alveolar_capillary_endothelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#tissue"/>
-        <lungmap_preferred_label>pre alveolar capillary endothelium</lungmap_preferred_label>
         <rdfs:isDefinedBy>LMMA0000000129</rdfs:isDefinedBy>
+        <lungmap_preferred_label>pre alveolar capillary endothelium</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -1631,14 +2150,8 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#proximal_acinar_tubule">
         <rdfs:label>proximal_acinar_tubule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#acinar_tubule"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#neuroepithelial_body"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <lungmap_preferred_label>proximal acinar tubule</lungmap_preferred_label>
         <rdfs:isDefinedBy>LungMAP ID: LMMA0000000009</rdfs:isDefinedBy>
+        <lungmap_preferred_label>proximal acinar tubule</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -1648,9 +2161,19 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#proximal_acinar_tubule_epithelial_cell">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#acinar_epithelial_cell"/>
         <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#transcription_factor_SOX-9"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#proximal_acinar_tubule_epithelium"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#advanced_glycosylation_end_product-specific_receptor"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1661,14 +2184,14 @@ comment: Category=gene.</definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#advanced_glycosylation_end_product-specific_receptor"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#proximal_acinar_tubule_epithelium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy>lungMAP ID: LMMA0000000573</rdfs:isDefinedBy>
+        <rdfs:comment>no present in CL need to be added</rdfs:comment>
         <definition>Definition LungMAP: A cuboidal epithelial cell that lines the proximal acinar tubule of the peripheral fetal lung in the pseudoglandular stage of lung development (E12.5 - E16.5). These cells express cell-specific proteins (or markers) for pre-type I pneumocytes, such as HOPX.</definition>
         <lungmap_preferred_label>proximal acinar tubule epithelial cell</lungmap_preferred_label>
-        <rdfs:comment>no present in CL need to be added</rdfs:comment>
+        <rdfs:isDefinedBy>lungMAP ID: LMMA0000000573</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -1680,36 +2203,12 @@ comment: Category=gene.</definition>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#acinar_tubule_epithelium"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#immature_type_II_pneumocyte"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#acinar_tubule_proliferative_epithelial_cell"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#immature_type_I_pneumocyte"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#proximal_acinar_tubule"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#intermediate_pneumocyte"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <lungmap_preferred_label>proximal acinar tubule epithelium</lungmap_preferred_label>
         <rdfs:isDefinedBy>LMMA0000000284</rdfs:isDefinedBy>
+        <lungmap_preferred_label>proximal acinar tubule epithelium</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -1718,15 +2217,13 @@ comment: Category=gene.</definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_artery">
         <rdfs:label>pulmonary_artery</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_blood_vessel"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#artery"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#artery_endothelium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000291</rdfs:isDefinedBy>
-        <lungmap_preferred_label>pulmonary artery</lungmap_preferred_label>
         <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0002012</rdfs:isDefinedBy>
         <rdfs:comment>additional information that can be imported from uberon:
 
@@ -1736,21 +2233,8 @@ develops_from some outflow tract pulmonary component
 continuous_with some pulmonary trunk
 develops_from some truncus arteriosus
 artery</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_blood_vessel -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_blood_vessel">
-        <rdfs:label>pulmonary _blood_vessel</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#respiratory_system_blood_vessel"/>
-        <rdfs:comment>AMM: heck if the two terms are the same</rdfs:comment>
-        <lungmap_preferred_label>pulmonary blood vessel</lungmap_preferred_label>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0003512
-
-LungMAP ID: LMMA0000000315</rdfs:isDefinedBy>
-        <definition>Definition UBERON: A blood vessel that is part of a lung [Automatically generated definition]. [database_cross_reference: OBOL:automatic]</definition>
+        <lungmap_preferred_label>pulmonary artery</lungmap_preferred_label>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000291</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -1775,16 +2259,16 @@ LungMAP ID: LMMA0000000315</rdfs:isDefinedBy>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_lymphatic_endothelium">
         <rdfs:label>pulmonary_lymphatic_endothelium</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endothelium"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lymphatic_endothelium"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_lymphatic_vessel"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <lungmap_preferred_label>pulmonary lymphatic endothelium</lungmap_preferred_label>
-        <rdfs:comment>AMM : not present in UBERON need to be added and could be a child of  http://purl.obolibrary.org/obo/UBERON_0003529</rdfs:comment>
         <rdfs:isDefinedBy>Lungmap ID: LMMA0000000446</rdfs:isDefinedBy>
+        <rdfs:comment>AMM : not present in UBERON need to be added and could be a child of  http://purl.obolibrary.org/obo/UBERON_0003529</rdfs:comment>
+        <lungmap_preferred_label>pulmonary lymphatic endothelium</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -1794,9 +2278,7 @@ LungMAP ID: LMMA0000000315</rdfs:isDefinedBy>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_lymphatic_vessel">
         <rdfs:label>pulmonary_lymphatic_vessel</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#complex_anatomical_structure"/>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0018227</rdfs:isDefinedBy>
-        <definition>A lymphatic vessel that is part of a lung.</definition>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000447</rdfs:isDefinedBy>
+        <lungmap_preferred_label>pulmonary lymphatic vessel</lungmap_preferred_label>
         <rdfs:comment>additional information that can be imported from uberon:
 
 
@@ -1806,7 +2288,9 @@ part of some pulmonary part of lymphatic system
 respiratory system lymphatic vessel
 
 pulmonary part of lymphatic system subClassOf : has part some pulmonary lymphatic vessel</rdfs:comment>
-        <lungmap_preferred_label>pulmonary lymphatic vessel</lungmap_preferred_label>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000447</rdfs:isDefinedBy>
+        <definition>A lymphatic vessel that is part of a lung.</definition>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0018227</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -1816,21 +2300,21 @@ pulmonary part of lymphatic system subClassOf : has part some pulmonary lymphati
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_surfactant-associated_protein_C">
         <rdfs:label>pulmonary_surfactant-associated_protein_C</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <definition>&quot;A protein that is a translation product of the human SFTPC gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
-comment: Category=gene.</definition>
-        <has_synonym>SP-C</has_synonym>
-        <has_synonym>Bricd6</has_synonym>
-        <has_synonym>SFTPC</has_synonym>
-        <has_synonym>SP5</has_synonym>
-        <has_synonym>Pro SP-C</has_synonym>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000014774</rdfs:isDefinedBy>
+        <has_synonym>Sftp-2</has_synonym>
+        <has_synonym>proSpC</has_synonym>
+        <has_synonym>SPC</has_synonym>
+        <has_synonym>Sftp2</has_synonym>
+        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000014774</Cytoscape_view_in_PRO>
         <has_synonym>pro-SpC</has_synonym>
         <has_synonym>pulmonary surfactant-associated proteolipid SPL(Val)</has_synonym>
-        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000014774</Cytoscape_view_in_PRO>
-        <has_synonym>Sftp2</has_synonym>
-        <has_synonym>SPC</has_synonym>
-        <has_synonym>proSpC</has_synonym>
-        <has_synonym>Sftp-2</has_synonym>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000014774</rdfs:isDefinedBy>
+        <has_synonym>Pro SP-C</has_synonym>
+        <has_synonym>SP5</has_synonym>
+        <has_synonym>SFTPC</has_synonym>
+        <has_synonym>SP-C</has_synonym>
+        <has_synonym>Bricd6</has_synonym>
+        <definition>&quot;A protein that is a translation product of the human SFTPC gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
+comment: Category=gene.</definition>
     </owl:Class>
     
 
@@ -1839,10 +2323,8 @@ comment: Category=gene.</definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_vein">
         <rdfs:label>pulmonary_vein</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_blood_vessel"/>
-        <definition>Pulmonary veins are blood vessels that transport blood from the lungs to the heart[GO</definition>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0002016</rdfs:isDefinedBy>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000305</rdfs:isDefinedBy>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#vein"/>
+        <lungmap_preferred_label>pulmonary vein</lungmap_preferred_label>
         <rdfs:comment>additional information that can be imported from uberon:
 
 vein
@@ -1854,7 +2336,9 @@ left pulmonary vein equivalentClass : pulmonary vein and ( drains some left lung
 pulmonary myocardium subClassOf : part of some pulmonary vein
 pulmonary vascular system subClassOf : has part some pulmonary vein
 right pulmonary vein equivalentClass : pulmonary vein and ( drains some right lung)</rdfs:comment>
-        <lungmap_preferred_label>pulmonary vein</lungmap_preferred_label>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000305</rdfs:isDefinedBy>
+        <definition>Pulmonary veins are blood vessels that transport blood from the lungs to the heart[GO</definition>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0002016</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -1864,25 +2348,28 @@ right pulmonary vein equivalentClass : pulmonary vein and ( drains some right lu
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#repiratory_system_capillary_endothelium">
         <rdfs:label>repiratory_system_capillary_endothelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endothelium"/>
-        <lungmap_preferred_label>repiratory system capillary endothelium</lungmap_preferred_label>
         <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0003489
 
 UBERON definition: An endothelium of capillary that is part of a respiratory system [Automatically generated definition].
 
 logical definition: endothelium of capillary and (part of some respiratory system)</rdfs:isDefinedBy>
+        <lungmap_preferred_label>repiratory system capillary endothelium</lungmap_preferred_label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#respiratory_system_blood_vessel -->
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#respiratory_bronchiole -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#respiratory_system_blood_vessel">
-        <rdfs:label>respiratory_system_blood_vessel</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#complex_anatomical_structure"/>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0003504</rdfs:isDefinedBy>
-        <rdfs:isDefinedBy>LungMap ID: LMMA0000000523</rdfs:isDefinedBy>
-        <definition>A blood vessel that is part of a respiratory system [Automatically generated definition]</definition>
-        <lungmap_preferred_label>respiratory system blood vessel</lungmap_preferred_label>
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#respiratory_bronchiole">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchiole"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#proximally_connected_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#teminal_bronchiole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0002188</rdfs:isDefinedBy>
+        <definition>UBERON Definition: A bronchiole that is the first segment of the respiratory zone. [database_cross_reference: http://en.wikipedia.org/wiki/Respiratory_bronchiole][database_cross_reference: ISBN10:0123813611]</definition>
     </owl:Class>
     
 
@@ -1891,15 +2378,15 @@ logical definition: endothelium of capillary and (part of some respiratory syste
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#respiratory_venule">
         <rdfs:label>respiratory_venule</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#respiratory_system_blood_vessel"/>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000316</rdfs:isDefinedBy>
-        <definition>A venule that is part of a respiratory system [Automatically generated definition].</definition>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#venule"/>
+        <lungmap_preferred_label>respiratory venule</lungmap_preferred_label>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0003494</rdfs:isDefinedBy>
         <rdfs:comment>additional information that can be imported from Uberon:
 
 
 venule and (part of some respiratory system)</rdfs:comment>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0003494</rdfs:isDefinedBy>
-        <lungmap_preferred_label>respiratory venule</lungmap_preferred_label>
+        <definition>A venule that is part of a respiratory system [Automatically generated definition].</definition>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000316</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -1915,10 +2402,59 @@ venule and (part of some respiratory system)</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#alpha-actin-2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy>LungMap ID: LMMA0000000343</rdfs:isDefinedBy>
-        <lungmap_preferred_label>smooth muscle cell</lungmap_preferred_label>
-        <definition>LungMap: A non-striated, elongated, spindle-shaped, involuntary contractile cell found in internal organs and blood vessels. Smooth muscle cells are found in the walls of the conducting airways (trachea, bronchi, bronchioles) and of the pulmonary and bronchial blood vessels (vascular smooth muscle).</definition>
         <rdfs:isDefinedBy>CL ID: http://purl.obolibrary.org/obo/CL_0000192</rdfs:isDefinedBy>
+        <definition>LungMap: A non-striated, elongated, spindle-shaped, involuntary contractile cell found in internal organs and blood vessels. Smooth muscle cells are found in the walls of the conducting airways (trachea, bronchi, bronchioles) and of the pulmonary and bronchial blood vessels (vascular smooth muscle).</definition>
+        <lungmap_preferred_label>smooth muscle cell</lungmap_preferred_label>
+        <rdfs:isDefinedBy>LungMap ID: LMMA0000000343</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue_of_bronchiole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue_of_bronchiole">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#tissue"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchiole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <definition>UBERON definition: A portion of smooth muscle tissue that is part of a bronchiole [Automatically generated definition]. [database_cross_reference: OBOL:automatic]
+</definition>
+        <rdfs:isDefinedBy> http://purl.obolibrary.org/obo/UBERON_0004515</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue_of_respiratory_bronchiole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue_of_respiratory_bronchiole">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue_of_bronchiole"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#respiratory_bronchiole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0004517</rdfs:isDefinedBy>
+        <definition>UNBERON Definition: A portion of smooth muscle tissue that is part of a respiratory bronchiole [Automatically generated definition]. [database_cross_reference: OBOL:automatic]</definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue_of_terminal_bronchiole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue_of_terminal_bronchiole">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue_of_bronchiole"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#teminal_bronchiole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0004516</rdfs:isDefinedBy>
+        <definition>UBERON Definition: A portion of smooth muscle tissue that is part of a terminal bronchiole [Automatically generated definition]. [database_cross_reference: OBOL:automatic]</definition>
     </owl:Class>
     
 
@@ -1928,9 +2464,15 @@ venule and (part of some respiratory system)</rdfs:comment>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#subendothelial_connective_tissue">
         <rdfs:label>subendothelial_connective_tissue</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#connective"/>
-        <rdfs:comment>AMM: not found in LungMAP need to added</rdfs:comment>
-        <rdfs:comment>AMM: not present in UBEROn need to added</rdfs:comment>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#respiratory_venule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <lungmap_preferred_label>subendothelial connective tissue</lungmap_preferred_label>
+        <rdfs:comment>AMM: not present in UBEROn need to added</rdfs:comment>
+        <rdfs:comment>AMM: not found in LungMAP need to added</rdfs:comment>
     </owl:Class>
     
 
@@ -1938,7 +2480,7 @@ venule and (part of some respiratory system)</rdfs:comment>
     <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#teminal_bronchiole -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#teminal_bronchiole">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#complex_anatomical_structure"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchiole"/>
     </owl:Class>
     
 
@@ -1948,9 +2490,15 @@ venule and (part of some respiratory system)</rdfs:comment>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#terminal_bronchiole_epithelium">
         <rdfs:label>terminal_bronchiole_epithelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#epithelium_of_bronchiole"/>
-        <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0001958</rdfs:isDefinedBy>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#teminal_bronchiole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <lungmap_preferred_label>terminal bronchiole epithelium</lungmap_preferred_label>
         <definition>UBERON: An epithelium that lines a terminal bronchiole. [database_cross_reference: http://orcid.org/0000-0002-6601-2165]</definition>
+        <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0001958</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -1960,8 +2508,8 @@ venule and (part of some respiratory system)</rdfs:comment>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#tissue">
         <rdfs:label>tissue</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#anatomical_entity"/>
-        <definition>UBERON:  Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation. [database_cross_reference: CARO:0000043]</definition>
         <rdfs:isDefinedBy>Uberon ID:  http://purl.obolibrary.org/obo/UBERON_0000479</rdfs:isDefinedBy>
+        <definition>UBERON:  Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation. [database_cross_reference: CARO:0000043]</definition>
     </owl:Class>
     
 
@@ -1971,14 +2519,14 @@ venule and (part of some respiratory system)</rdfs:comment>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#transcription_factor_SOX-2">
         <rdfs:label>transcription_factor_SOX-2</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000015426</rdfs:isDefinedBy>
-        <has_synonym>sox2</has_synonym>
-        <has_synonym>SOCX2</has_synonym>
-        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000015426</Cytoscape_view_in_PRO>
-        <definition>&quot;A protein that is a translation product of the human SOX2 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
-comment: Category=gene.</definition>
         <PRO_Hierarchy>http://pir.georgetown.edu/cgi-bin/pro/browser_pro?ids=PR:000015426</PRO_Hierarchy>
         <has_synonym>Sox2</has_synonym>
+        <definition>&quot;A protein that is a translation product of the human SOX2 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
+comment: Category=gene.</definition>
+        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000015426</Cytoscape_view_in_PRO>
+        <has_synonym>SOCX2</has_synonym>
+        <has_synonym>sox2</has_synonym>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000015426</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -1988,13 +2536,13 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#transcription_factor_SOX-9">
         <rdfs:label>transcription_factor_SOX-9</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <PRO_Hierarchy>http://pir.georgetown.edu/cgi-bin/pro/browser_pro?ids=PR:000015435</PRO_Hierarchy>
-        <has_synonym>SOX9</has_synonym>
-        <has_synonym>Sox9</has_synonym>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000015435</rdfs:isDefinedBy>
+        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000015435</Cytoscape_view_in_PRO>
         <definition>&quot;A protein that is a translation product of the human SOX9 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
 comment: Category=gene.</definition>
-        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000015435</Cytoscape_view_in_PRO>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000015435</rdfs:isDefinedBy>
+        <has_synonym>SOX9</has_synonym>
+        <has_synonym>Sox9</has_synonym>
+        <PRO_Hierarchy>http://pir.georgetown.edu/cgi-bin/pro/browser_pro?ids=PR:000015435</PRO_Hierarchy>
     </owl:Class>
     
 
@@ -2004,17 +2552,17 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#tubulin_alpha-1A_chain">
         <rdfs:label>tubulin_alpha-1A_chain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <has_synonym>Tuba1</has_synonym>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000016807</rdfs:isDefinedBy>
-        <has_synonym>tubulin B-alpha-1</has_synonym>
-        <has_synonym>TUBA1A</has_synonym>
+        <has_synonym>alpha-tubulin 3</has_synonym>
+        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000016807</Cytoscape_view_in_PRO>
+        <has_synonym>alpha-tubulin isotype M-alpha-1</has_synonym>
+        <has_synonym>Tuba-1</has_synonym>
+        <PRO_Hierarchy>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000016807</PRO_Hierarchy>
         <definition>&quot;A tubulin that is a translation product of the human TUBA1A gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
 comment: Category=gene.</definition>
-        <PRO_Hierarchy>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000016807</PRO_Hierarchy>
-        <has_synonym>Tuba-1</has_synonym>
-        <has_synonym>alpha-tubulin isotype M-alpha-1</has_synonym>
-        <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000016807</Cytoscape_view_in_PRO>
-        <has_synonym>alpha-tubulin 3</has_synonym>
+        <has_synonym>TUBA1A</has_synonym>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000016807</rdfs:isDefinedBy>
+        <has_synonym>tubulin B-alpha-1</has_synonym>
+        <has_synonym>Tuba1</has_synonym>
     </owl:Class>
     
 
@@ -2029,8 +2577,8 @@ comment: Category=gene.</definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#acetylation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <has_synonym>Acetylated Tubulin</has_synonym>
         <rdfs:isDefinedBy>AMM new term</rdfs:isDefinedBy>
+        <has_synonym>Acetylated Tubulin</has_synonym>
     </owl:Class>
     
 
@@ -2040,10 +2588,10 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#unclassified_epithelial_cell">
         <rdfs:label>unclassified_epithelial_cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchiolar_epithelial_cell"/>
+        <rdfs:comment>not present in CL need to be added</rdfs:comment>
+        <definition>Definition LungMap: This term is used to describe an epithelial cell that cannot be classified under an existing epithelial cell type. </definition>
         <rdfs:isDefinedBy>LungMAp ID: LMMA0000000384</rdfs:isDefinedBy>
         <lungmap_preferred_label>unclassified epithelial cell</lungmap_preferred_label>
-        <definition>Definition LungMap: This term is used to describe an epithelial cell that cannot be classified under an existing epithelial cell type. </definition>
-        <rdfs:comment>not present in CL need to be added</rdfs:comment>
     </owl:Class>
     
 
@@ -2059,10 +2607,10 @@ comment: Category=gene.</definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#transcription_factor_SOX-9"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000386</rdfs:isDefinedBy>
-        <definition>Definition LungMAP: This term is used to describe a fibroblast that cannot be classified under an existing fibroblast cell type.</definition>
-        <rdfs:comment>AMM: not present in CL need to be added</rdfs:comment>
         <lungmap_preferred_label>unclassified fibroblast</lungmap_preferred_label>
+        <rdfs:comment>AMM: not present in CL need to be added</rdfs:comment>
+        <definition>Definition LungMAP: This term is used to describe a fibroblast that cannot be classified under an existing fibroblast cell type.</definition>
+        <rdfs:isDefinedBy>LungMAP ID: LMMA0000000386</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -2072,28 +2620,28 @@ comment: Category=gene.</definition>
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#uteroglobin">
         <rdfs:label>uteroglobin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
-        <has_synonym>SCGB1A1</has_synonym>
-        <has_synonym>secretoglobin family 1A member 1</has_synonym>
-        <has_synonym>Utg</has_synonym>
-        <has_synonym>UGB</has_synonym>
-        <has_synonym>UP-1</has_synonym>
-        <has_synonym>CCSP</has_synonym>
-        <definition>A protein that is a translation product of the human SCGB1A1 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
-comment: Category=gene.</definition>
-        <has_synonym>PCB-binding protein</has_synonym>
         <has_synonym>urine protein 1</has_synonym>
-        <has_synonym>PCB-BP</has_synonym>
-        <has_synonym>PCBBP</has_synonym>
-        <has_synonym>urinary protein 1</has_synonym>
-        <has_synonym>clara cell 17 kDa protein</has_synonym>
-        <has_synonym>UP1</has_synonym>
-        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000014505</rdfs:isDefinedBy>
-        <has_synonym>CCPBP</has_synonym>
-        <has_synonym>clara cell phospholipid-binding protein</has_synonym>
-        <has_synonym>CC16</has_synonym>
-        <has_synonym>CC10</has_synonym>
+        <has_synonym>PCB-binding protein</has_synonym>
         <has_synonym>clara cells 10 kDa secretory protein</has_synonym>
         <has_synonym>UG</has_synonym>
+        <has_synonym>CC10</has_synonym>
+        <definition>A protein that is a translation product of the human SCGB1A1 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
+comment: Category=gene.</definition>
+        <has_synonym>CC16</has_synonym>
+        <has_synonym>CCSP</has_synonym>
+        <has_synonym>clara cell phospholipid-binding protein</has_synonym>
+        <has_synonym>CCPBP</has_synonym>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/PR_000014505</rdfs:isDefinedBy>
+        <has_synonym>UP1</has_synonym>
+        <has_synonym>UP-1</has_synonym>
+        <has_synonym>UGB</has_synonym>
+        <has_synonym>clara cell 17 kDa protein</has_synonym>
+        <has_synonym>urinary protein 1</has_synonym>
+        <has_synonym>PCBBP</has_synonym>
+        <has_synonym>Utg</has_synonym>
+        <has_synonym>secretoglobin family 1A member 1</has_synonym>
+        <has_synonym>SCGB1A1</has_synonym>
+        <has_synonym>PCB-BP</has_synonym>
     </owl:Class>
     
 
@@ -2106,19 +2654,13 @@ comment: Category=gene.</definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#arterial_smooth_muscle"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#arterial_smooth_muscle_tissue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#respiratory_system_blood_vessel"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <lungmap_preferred_label>vascular associated smooth muscle cell</lungmap_preferred_label>
-        <rdfs:isDefinedBy>LungMap ID: LMMA0000000393</rdfs:isDefinedBy>
-        <definition>CL : A smooth muscle cell assocatiated with the vasculature. [database_cross_reference: GOC:dsd][database_cross_reference: GOC:tfm]</definition>
         <rdfs:isDefinedBy>CL ID: http://purl.obolibrary.org/obo/CL_0000359</rdfs:isDefinedBy>
+        <definition>CL : A smooth muscle cell assocatiated with the vasculature. [database_cross_reference: GOC:dsd][database_cross_reference: GOC:tfm]</definition>
+        <rdfs:isDefinedBy>LungMap ID: LMMA0000000393</rdfs:isDefinedBy>
+        <lungmap_preferred_label>vascular associated smooth muscle cell</lungmap_preferred_label>
     </owl:Class>
     
 
@@ -2129,6 +2671,36 @@ comment: Category=gene.</definition>
         <rdfs:label>vascular_tree_endothelium</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endothelium"/>
         <lungmap_preferred_label>vascular tree endothelium</lungmap_preferred_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#vein -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#vein">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#venous_blood_vessel"/>
+        <definition>UBERON Definitions: Any of the tubular branching vessels that carry blood from the capillaries toward the heart.</definition>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0001638</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#venous_blood_vessel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#venous_blood_vessel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#blood_vessel"/>
+        <rdfs:isDefinedBy> http://purl.obolibrary.org/obo/UBERON_0003920</rdfs:isDefinedBy>
+        <definition>UBERON definition: A blood vessel that carries blood from the capillaries toward the heart Compare to: vein</definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#venule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#venule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#venous_blood_vessel"/>
+        <rdfs:isDefinedBy>http://purl.obolibrary.org/obo/UBERON_0001979</rdfs:isDefinedBy>
+        <definition>UBERON Definitions: One of the minute vessels that collect deoxygenated blood from the capillary plexuses returns it to the veins</definition>
     </owl:Class>
     
 
@@ -2144,13 +2716,133 @@ comment: Category=gene.</definition>
     
 
 
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_10.5&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_10.5&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_11.25&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_11.25&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_11.5&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_11.5&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_12.5&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_12.5&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_13.5&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_13.5&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_14.5&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_14.5&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_15.5&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_15.5&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_16.5&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_16.5&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_17.5&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_17.5&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_18&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_18&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_18.5&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_18.5&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_8&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_8&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_8.25&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_8.25&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_8.5&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_8.5&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_9.5&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#&apos;embryonic_day_9.5&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#age_since_fertilization_measurement_datum"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#E18.5 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#E18.5">
-        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#embryo_age"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#mouse_embryo_age"/>
         <rdfs:label>embryonic day 18.5</rdfs:label>
-        <definition>18.5 days after fertilization</definition>
         <term_editor>Person: Chris Stoeckert, Jie Zheng</term_editor>
+        <definition>18.5 days after fertilization</definition>
     </owl:NamedIndividual>
     
 
@@ -2158,14 +2850,13 @@ comment: Category=gene.</definition>
     <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Embryonic_day_16.5 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Embryonic_day_16.5">
-        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#embryo_age"/>
-        <rdfs:label>Embryonic day 16.5</rdfs:label>
-        <term_editor>Person: Chris Stoeckert, Jie Zheng</term_editor>
-        <definition>16.5 days after fertilization</definition>
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchiole"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#mouse_embryo_age"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#neuroepithelial_body"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 
