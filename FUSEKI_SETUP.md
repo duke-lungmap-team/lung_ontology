@@ -36,10 +36,10 @@ docker restart fuseki_lungmap
 ### Production Environment
 ```
 docker run -d -p 3030:3030 \
--e JVM_ARGS=-Xmx2g \
+-e JVM_ARGS=-Xmx1g \
 --restart=always \
 -e ADMIN_PASSWORD=thisisonpurpose \
--v $(PWD)/lung_ontology.owl:/jena-fuseki/lung_ontology.owl \
+-v $(pwd)/lung_ontology.owl:/jena-fuseki/lung_ontology.owl \
 stain/jena-fuseki \
 /jena-fuseki/fuseki-server \
 --file=/jena-fuseki/lung_ontology.owl /ontology
