@@ -225,6 +225,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+    
+
+
     <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#located_in -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#located_in">
@@ -315,6 +321,12 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#ATP-binding_cassette_sub-family_A_member_3">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#plasmamembrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <has_synonym>1810036E22Rik</has_synonym>
         <has_synonym>ABC-C</has_synonym>
         <has_synonym>ABCA3</has_synonym>
@@ -346,6 +358,12 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#CALCA">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#extracellular_space"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <has_synonym>CA</has_synonym>
         <has_synonym>CALCA</has_synonym>
         <has_synonym>CGRP-1</has_synonym>
@@ -366,6 +384,24 @@ http://purl.obolibrary.org/obo/PR_000027223</rdfs:isDefinedBy>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#CD34">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#extracellular_space"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#plasmamembrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/pro/visual/cytoscape/pro/PR%3AQ64314</Cytoscape_view_in_PRO>
         <has_synonym>AU040960</has_synonym>
         <has_synonym>CD34 antigen</has_synonym>
@@ -1363,6 +1399,24 @@ for now we are going to have ponly mouse proteins but in the future we will have
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#advanced_glycosylation_end_product-specific_receptor">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#extracellular_space"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#plasmamembrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <has_synonym>AGER</has_synonym>
         <has_synonym>RAGE</has_synonym>
         <has_synonym>Receptor for advanced glycosylation end products</has_synonym>
@@ -1394,6 +1448,12 @@ for now we are going to have ponly mouse proteins but in the future we will have
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#alpha-actin-2">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <has_synonym>ACTA2</has_synonym>
         <has_synonym>a-SMA</has_synonym>
         <has_synonym>actin</has_synonym>
@@ -1543,6 +1603,12 @@ for now we are going to have ponly mouse proteins but in the future we will have
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#arl13b">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#plasmamembrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <has_synonym>A530097K21Rik</has_synonym>
         <has_synonym>A930014M17Rik</has_synonym>
         <has_synonym>ADP-ribosylation factor-like protein 2-like 1</has_synonym>
@@ -2482,6 +2548,12 @@ additional notes:
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#chondroitin_sulfate_proteoglycan_4">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#plasmamembrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <definition>def: &quot;A protein that is a translation product of the human CSPG4 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
 comment: Category=gene.</definition>
         <has_synonym>4732461B14Rik</has_synonym>
@@ -2584,6 +2656,15 @@ comment: Category=gene.</definition>
         <rdfs:isDefinedBy>LungMap ID: LMMA0000000147</rdfs:isDefinedBy>
         <rdfs:isDefinedBy>UBERON ID: http://purl.obolibrary.org/obo/UBERON_0003570</rdfs:isDefinedBy>
         <rdfs:label>connective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cytoplasm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cytoplasm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cellular_structure"/>
+        <rdfs:isDefinedBy>http://amigo.geneontology.org/amigo/term/GO:0005737</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -2750,6 +2831,12 @@ comment: Category=gene.</definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#endomucin">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#plasmamembrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <definition>&quot;A protein that is a translation product of the human EMCN gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
 comment: Category=gene.</definition>
         <has_synonym>0610012K22Rik</has_synonym>
@@ -3045,6 +3132,15 @@ Developmental Stage(s):	alveolar stage, canalicular stage, saccular stage</rdfs:
     
 
 
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#extracellular_space -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#extracellular_space">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cellular_structure"/>
+        <rdfs:isDefinedBy>http://amigo.geneontology.org/amigo/term/GO:0005615</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#fibroblast -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#fibroblast">
@@ -3083,6 +3179,12 @@ Developmental Stage(s):	alveolar stage, canalicular stage, saccular stage</rdfs:
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#histone_H3.3C">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#nucleus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000029067</Cytoscape_view_in_PRO>
         <has_synonym>Histone H3.5</has_synonym>
         <has_synonym>p-Histone H3</has_synonym>
@@ -3100,6 +3202,12 @@ human </rdfs:comment>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#homeobox_protein_Nkx-2.1">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#nucleus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000011241</Cytoscape_view_in_PRO>
         <definition>&quot;A protein that is a translation product of the human NKX2-1 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
 comment: Category=gene.</definition>
@@ -3130,6 +3238,18 @@ comment: Category=gene.</definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#homeodomain-only_protein">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#nucleus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <definition>&quot;A protein that is a translation product of the human HOPX gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
 comment: Category=gene.</definition>
         <has_synonym>HOP Homeobox</has_synonym>
@@ -3655,6 +3775,12 @@ comment: Category=gene.</definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lymphatic_vessel_endothelial_hyaluronic_acid_receptor_1">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#plasmamembrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <definition>&quot;A protein that is a translation product of the human LYVE1 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
 comment: Category=gene.</definition>
         <has_synonym>CRSBP-1</has_synonym>
@@ -4126,6 +4252,15 @@ comment: Category=gene.</definition>
     
 
 
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#nucleus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#nucleus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cellular_structure"/>
+        <rdfs:isDefinedBy>http://amigo.geneontology.org/amigo/term/GO:0005634</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#organ -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#organ">
@@ -4192,10 +4327,25 @@ comment: Category=gene.</definition>
     
 
 
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#plasmamembrane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#plasmamembrane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cellular_structure"/>
+        <rdfs:isDefinedBy>http://amigo.geneontology.org/amigo/term/GO:0005886</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#platelet_endothelial_cell_adhesion_molecule -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#platelet_endothelial_cell_adhesion_molecule">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#plasmamembrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <has_synonym>CD31</has_synonym>
         <has_synonym>EndoCAM</has_synonym>
         <has_synonym>GPIIA&apos;</has_synonym>
@@ -4774,6 +4924,18 @@ pulmonary part of lymphatic system subClassOf : has part some pulmonary lymphati
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_surfactant-associated_protein_C">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#extracellular_space"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000014774</Cytoscape_view_in_PRO>
         <definition>&quot;A protein that is a translation product of the human SFTPC gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
 comment: Category=gene.</definition>
@@ -5661,6 +5823,12 @@ LungMap: LMMA0000000359</rdfs:isDefinedBy>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#transcription_factor_SOX-2">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#nucleus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000015426</Cytoscape_view_in_PRO>
         <PRO_Hierarchy>http://pir.georgetown.edu/cgi-bin/pro/browser_pro?ids=PR:000015426</PRO_Hierarchy>
         <definition>&quot;A protein that is a translation product of the human SOX2 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
@@ -5678,6 +5846,12 @@ comment: Category=gene.</definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#transcription_factor_SOX-9">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#nucleus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000015435</Cytoscape_view_in_PRO>
         <PRO_Hierarchy>http://pir.georgetown.edu/cgi-bin/pro/browser_pro?ids=PR:000015435</PRO_Hierarchy>
         <definition>&quot;A protein that is a translation product of the human SOX9 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
@@ -5694,6 +5868,12 @@ comment: Category=gene.</definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#tubulin_alpha-1A_chain">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000016807</Cytoscape_view_in_PRO>
         <PRO_Hierarchy>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000016807</PRO_Hierarchy>
         <definition>&quot;A tubulin that is a translation product of the human TUBA1A gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
@@ -5786,6 +5966,18 @@ comment: Category=gene.</definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#uteroglobin">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#extracellular_space"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <definition>A protein that is a translation product of the human SCGB1A1 gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
 comment: Category=gene.</definition>
         <has_synonym>CC10</has_synonym>
@@ -5944,6 +6136,18 @@ comment: Category=gene.</definition>
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#vimentin">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#Protein"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#cytoplasm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#localizes_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#plasmamembrane"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <Cytoscape_view_in_PRO>http://research.bioinformatics.udel.edu/visualization/pro/view/entry_cw_pro.php?id=PR:000017298</Cytoscape_view_in_PRO>
         <PRO_Hierarchy>http://pir.georgetown.edu/cgi-bin/pro/browser_pro?ids=PR:000017298</PRO_Hierarchy>
         <definition>&quot;A protein that is a translation product of the human VIM gene or a 1:1 ortholog thereof.&quot; [PRO:DNx]
