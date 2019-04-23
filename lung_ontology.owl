@@ -95,6 +95,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#adjacent_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#adjacent_to">
+        <definition>x adjacent to y if and only if x and y share a boundary.</definition>
+        <term_editor>Chris Mungall</term_editor>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#capable_of -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#capable_of"/>
@@ -289,6 +298,27 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#recognizes -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#recognizes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#surrounded_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#surrounded_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#adjacent_to"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#surrounds"/>
+        <definition>x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x</definition>
+        <term_editor>Chris Mungall</term_editor>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#surrounds -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#surrounds">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#adjacent_to"/>
+        <definition>inverse of surrounded by</definition>
+        <term_editor>Chris Mungall</term_editor>
+    </owl:ObjectProperty>
     
 
 
@@ -2084,7 +2114,7 @@ additional notes:
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchial_artery"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_artery"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <lungmap_preferred_label>bronchial artery endothelium</lungmap_preferred_label>
@@ -4284,7 +4314,7 @@ comment: Category=gene.</definition>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#bronchial_artery"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#pulmonary_artery"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>periarterial_connective_tissue</rdfs:label>
@@ -4794,6 +4824,12 @@ comment: Category=gene.</definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lung"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#surrounded_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <lungmap_preferred_label>pulmonary artery</lungmap_preferred_label>
         <rdfs:comment>additional information that can be imported from uberon:
 
@@ -5218,6 +5254,12 @@ comment: Category=gene.</definition>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lung"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#surrounded_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <definition>Pulmonary veins are blood vessels that transport blood from the lungs to the heart[GO</definition>
         <lungmap_preferred_label>pulmonary vein</lungmap_preferred_label>
         <rdfs:comment>additional information that can be imported from uberon:
@@ -5625,10 +5667,18 @@ venule and (part of some respiratory system)</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#interstitial_tissue"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue_of_bronchiole -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue_of_bronchiole">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#tissue"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
