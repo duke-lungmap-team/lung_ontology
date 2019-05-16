@@ -1706,16 +1706,17 @@ for now we are going to have ponly mouse proteins but in the future we will have
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#vascular_associated_smooth_muscle_cell"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#vascular_tree_endothelium"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#vascular_tree_endothelium"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#surrounded_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#vascular_smooth_muscle_tissue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <definition>UBERON definition: A vessel through which blood circulates in the body.</definition>
+        <lungmap_preferred_label>blood_vessel</lungmap_preferred_label>
         <rdfs:isDefinedBy>UBERON http://purl.obolibrary.org/obo/UBERON_0001981
 </rdfs:isDefinedBy>
         <rdfs:label>blood_vessel</rdfs:label>
@@ -1832,12 +1833,6 @@ for now we are going to have ponly mouse proteins but in the future we will have
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#epithelium_of_bronchiole"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue_of_bronchiole"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2084,6 +2079,12 @@ for now we are going to have ponly mouse proteins but in the future we will have
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#part_of"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#lung"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#surrounded_by"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue_of_bronchiole"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <definition>Uberon Definition: The conducting airway of the lungs found terminal to the bronchi; these structures contain neither cartilage nor mucous-secreting glands; the epithelium of the bronchioles becomes thinner with each branching</definition>
@@ -4848,12 +4849,6 @@ right pulmonary vein equivalentClass : pulmonary vein and ( drains some right lu
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue_of_bronchiole"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#proximally_connected_to"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#terminal_bronchiole"/>
             </owl:Restriction>
@@ -4954,12 +4949,6 @@ right pulmonary vein equivalentClass : pulmonary vein and ( drains some right lu
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#epithelium_of_bronchiole"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/am175/ontologies/2017/1/untitled-ontology-79#smooth_muscle_tissue_of_bronchiole"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
